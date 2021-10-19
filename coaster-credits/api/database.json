@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "name": "Chris",
+      "email": "me@cc.com",
+      "nickName": "Smurph",
+      "id": 1,
+      "idAdmin": true
+    },
+    {
+      "email": "her@cc.com",
+      "name": "April Murphy",
+      "nickname": "Soapy",
+      "id": 2,
+      "isAdmin": false
+    }
+  ],
+  "parks": [],
+  "coasters": [],
+  "credits": []
+}
