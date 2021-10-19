@@ -1,0 +1,54 @@
+.container--login {
+    background-color: #8ebff4;
+    padding-bottom: 614px;
+}.form--section {
+    display: flex;
+    justify-content: center;
+}
+.form--login {
+    display: flex;
+    flex-direction: column;
+}
+.form--login--button {
+    display: flex;
+    justify-content: center;
+}
+.form--title {
+    display: flex;
+    flex-direction: column;
+}
+.link--register {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container--register {
+  background-color: #8ebff4;
+  padding-bottom: 506.5px;
+  padding-top: 5px;
+}
+.form--register--section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form--register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fieldset-register {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.fieldset-register--button {
+    display: flex;
+    justify-content: center;
+}
+fieldset { 
+    border:0;
+}
