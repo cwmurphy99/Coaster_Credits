@@ -4,8 +4,8 @@ import { Login } from "./auth/Login";
 import { Register } from "./auth/Register";
 import { useState } from "react";
 import { ParkList } from "./parks/ParkList";
+import { ParkCard } from "./parks/ParkCard";
 import { UserCard } from "./users/UserCard";
-
 
 export const ApplicationViews = () => {
 
@@ -25,7 +25,7 @@ export const ApplicationViews = () => {
             {isAuthenticated ? <UserCard /> : <Login />}
         </Route>
             <Route exact path="/parks">
-                {isAuthenticated ? <ParkList /> : <Login />}
+                {isAuthenticated ? <ParkCard /> : <Login />}
             </Route>
 
             <Route exact path="/login">
