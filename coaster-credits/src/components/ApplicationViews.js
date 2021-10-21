@@ -21,9 +21,9 @@ export const ApplicationViews = () => {
 
     return (
         <>
-        <Route path="/">
-            {isAuthenticated ? <UserCard /> : <Login />}
-        </Route>
+            <Route path="/">
+                {isAuthenticated ? <UserCard /> : <Login />}
+            </Route>
             <Route exact path="/parks">
                 {isAuthenticated ? <ParkCard /> : <Login />}
             </Route>
