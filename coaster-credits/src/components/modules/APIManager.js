@@ -1,21 +1,19 @@
 const remoteURL = "http://localhost:8088";
-const apiURL = "https://coasters-api.herokuapp.com/";
 
 export default class APIManager {
 //target: json parameter to query                       eg. "users", "articles", "tasks"    -   must be in string format
 //id: target/id;                                        eg. 1   -   must be in number format
 //expandArray: array of paramters to expand on          eg. ["task", "article"]     -   must be in string format
-//whichURL: which URL is to be used                     eg. remoteURL or apiURL     -   must be in variable format
 
-getById(target, id, expandArray = [], whichURL){
+getById(target, id, expandArray = []){
     //add traling string of expand parameters for non-empty expandArray
     let expandQuery = expandArray.length > 0 ? "?" : "";
     if(expandArray.length > 0) {
         expandArray.forEach((elem) => {
-            expandQuery += `_expand=${elem}&`;
-        });
+                expandQuery += `_expand=${elem}&`;
+            });
     }
-    let url = `${whichURL}/${target}/${id}/${expandQuery}`;
+    let url = `${remoteURL}/${target}/${id}/${expandQuery}`;
     return fetch(url).then((res) => res.json());
 }
 

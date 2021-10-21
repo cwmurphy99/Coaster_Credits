@@ -18447,7 +18447,7 @@
       "parkId": 142
     },
     {
-      "name": "",
+      "name": "Gemini",
       "parkName": "Cedar Point",
       "city": "Sandusky",
       "state": "Ohio",
@@ -18457,16 +18457,16 @@
       "model": "All Models",
       "type": "Steel",
       "design": "Sit Down",
-      "length": "39353935",
-      "height": "125.3125.3",
+      "length": "3935",
+      "height": "125.3",
       "speed": "6060",
       "inversions": 0,
-      "verticalAngle": "5555",
-      "duration": "0.223842593",
+      "verticalAngle": "55",
+      "duration": "",
       "gForce": "",
-      "drop": "118118",
+      "drop": "118",
       "active": true,
-      "started": "1978-06",
+      "started": "1978",
       "ended": "",
       "id": 868,
       "parkId": 142
@@ -88772,5 +88772,16 @@
       "parkId": 1279
     }
   ],
-  "credits": []
+  "credits": [
+    {
+      "id": 1,
+      "userId": 1,
+      "rideId": 868
+    },
+    {
+    "id": 2,
+    "userId": 1,
+    "rideId": 2296
+    }
+  ]
 }

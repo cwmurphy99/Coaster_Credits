@@ -9,13 +9,12 @@ nav{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    height: 200px;
+    height: 161px;
 }
 .nav-item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 20px;
 }
 .nav-link-parks{
     display: flex;
