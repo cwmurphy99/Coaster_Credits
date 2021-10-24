@@ -3,9 +3,10 @@ import { Route } from "react-router-dom";
 import { Login } from "./auth/Login";
 import { Register } from "./auth/Register";
 import { useState } from "react";
-import { ParkList } from "./parks/ParkList";
-import { ParkCard } from "./parks/ParkCard";
 import { UserCard } from "./users/UserCard";
+import { ParkList } from "./parks/ParkList";
+import { ParkDetail } from "./parks/ParkDetail";
+import { RideList } from "./rides/RideList";
 
 export const ApplicationViews = () => {
 
@@ -21,20 +22,19 @@ export const ApplicationViews = () => {
 
     return (
         <>
-            <Route path="/">
-                {isAuthenticated ? <UserCard /> : <Login />}
-            </Route>
-            <Route exact path="/parks">
-                {isAuthenticated ? <ParkCard /> : <Login />}
-            </Route>
+            <Route path="/">  {isAuthenticated ? <UserCard /> : <Login />}  </Route>
 
-            <Route exact path="/login">
-                <Login setAuthUser={setAuthUser} />
-            </Route>
+            <Route exact path="/parks">  {isAuthenticated ? <ParkList /> : <Login />}  </Route>
 
-            <Route exact path="/register">
-                <Register setAuthUser={setAuthUser} />
-            </Route>
+            <Route exact path="/parks/:parkId(\d+)">  {isAuthenticated ? <ParkDetail /> : <Login />} </Route>
+
+            <Route exact path="/coasters">  {isAuthenticated ? <RideList /> : <Login />}  </Route>
+
+
+
+            <Route exact path="/login">  <Login setAuthUser={setAuthUser} />  </Route>
+
+            <Route exact path="/register">  <Register setAuthUser={setAuthUser} />  </Route>
         </>
     );
 };

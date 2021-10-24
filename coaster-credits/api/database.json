@@ -5,14 +5,21 @@
       "email": "me@cc.com",
       "nickName": "Smurph",
       "id": 1,
-      "idAdmin": true
+      "isAdmin": true
     },
     {
       "email": "her@cc.com",
       "name": "April Murphy",
-      "nickname": "Soapy",
+      "nickName": "Soapy",
       "id": 2,
       "isAdmin": false
+    },
+    {
+      "email": "her2@cc.com",
+      "name": "Lindsay Fuller",
+      "nickName": "Loobndsooby",
+      "isAdmin": false,
+      "id": 3
     }
   ],
   "parks": [
@@ -9072,7 +9079,7 @@
       "parkId": 3
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Acushnet Park",
       "city": "New Bedford",
       "state": "Massachusetts",
@@ -9097,7 +9104,7 @@
       "parkId": 4
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Acushnet Park",
       "city": "New Bedford",
       "state": "Massachusetts",
@@ -9547,7 +9554,7 @@
       "parkId": 13
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Adventureland Amusement Park",
       "city": "North Webster",
       "state": "Indiana",
@@ -10122,7 +10129,7 @@
       "parkId": 17
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Airport Kiddieland",
       "city": "Binghamton",
       "state": "New York",
@@ -10422,7 +10429,7 @@
       "parkId": 22
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Alameda Park",
       "city": "Butler",
       "state": "Pennsylvania",
@@ -10872,7 +10879,7 @@
       "parkId": 35
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Arcola Park",
       "city": "Rochelle Park",
       "state": "New Jersey",
@@ -11447,7 +11454,7 @@
       "parkId": 47
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Bay Ridge Park",
       "city": "Annapolis",
       "state": "Maryland",
@@ -11522,7 +11529,7 @@
       "parkId": 50
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Bayside Park",
       "city": "Clear Lake",
       "state": "Iowa",
@@ -11547,7 +11554,7 @@
       "parkId": 50
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Bayville Adventure Park",
       "city": "Bayville",
       "state": "New York",
@@ -12247,7 +12254,7 @@
       "parkId": 66
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Beverly Park",
       "city": "Los Angeles",
       "state": "California",
@@ -15022,7 +15029,7 @@
       "parkId": 112
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Cal Expo Amusement Park",
       "city": "Sacramento",
       "state": "California",
@@ -15047,7 +15054,7 @@
       "parkId": 113
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Cal Expo Amusement Park",
       "city": "Sacramento",
       "state": "California",
@@ -15172,7 +15179,7 @@
       "parkId": 114
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Calhoun Park",
       "city": "Pittsburgh",
       "state": "Pennsylvania",
@@ -18047,7 +18054,7 @@
       "parkId": 138
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Casino Pier",
       "city": "Seaside Heights",
       "state": "New Jersey",
@@ -19772,7 +19779,7 @@
       "parkId": 156
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Chain of Rocks Amusement Park",
       "city": "St. Louis",
       "state": "Missouri",
@@ -19797,7 +19804,7 @@
       "parkId": 156
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Cheltenham Beach",
       "city": "Chicago",
       "state": "Illinois",
@@ -20097,7 +20104,7 @@
       "parkId": 160
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Chico Kiddieland",
       "city": "San Juan",
       "state": "Puerto Rico",
@@ -20197,7 +20204,7 @@
       "parkId": 162
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Chippewa Lake Park",
       "city": "Chippewa Lake",
       "state": "Ohio",
@@ -20272,7 +20279,7 @@
       "parkId": 164
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Cincinnati Zoo & Botanical Garden",
       "city": "Cincinnati",
       "state": "Ohio",
@@ -20672,7 +20679,7 @@
       "parkId": 172
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Clown Town Kiddieland",
       "city": "Hutchinson",
       "state": "Kansas",
@@ -21247,7 +21254,7 @@
       "parkId": 183
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Como Town",
       "city": "St. Paul",
       "state": "Minnesota",
@@ -21297,7 +21304,7 @@
       "parkId": 184
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Coney Island - Independent Vendor 1",
       "city": "Brooklyn",
       "state": "New York",
@@ -21547,7 +21554,7 @@
       "parkId": 194
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Coney Island on the Boardwalk",
       "city": "Asbury",
       "state": "New Jersey",
@@ -21897,7 +21904,7 @@
       "parkId": 195
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Coney Park",
       "city": "Kingston",
       "state": "Saint Andrew",
@@ -22647,7 +22654,7 @@
       "parkId": 211
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Crumps Park",
       "city": "Macon",
       "state": "Georgia",
@@ -23322,7 +23329,7 @@
       "parkId": 223
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Deadwood",
       "city": "Williamston",
       "state": "North Carolina",
@@ -23397,7 +23404,7 @@
       "parkId": 225
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Deer Forest Fun Park",
       "city": "Coloma",
       "state": "Michigan",
@@ -23522,7 +23529,7 @@
       "parkId": 226
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "DelGrosso's Amusement Park",
       "city": "Tipton",
       "state": "Pennsylvania",
@@ -23572,7 +23579,7 @@
       "parkId": 227
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Dells Springs Park",
       "city": "Wisconsin Dells",
       "state": "Wisconsin",
@@ -23797,7 +23804,7 @@
       "parkId": 230
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Deno's Wonder Wheel Amusement Park",
       "city": "Brooklyn",
       "state": "New York",
@@ -24247,7 +24254,7 @@
       "parkId": 236
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "DivertiDIF",
       "city": "Chihuahua",
       "state": "Chihuahua",
@@ -24322,7 +24329,7 @@
       "parkId": 238
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Dixieland Park",
       "city": "Jacksonville",
       "state": "Florida",
@@ -24347,7 +24354,7 @@
       "parkId": 239
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Dizzyland",
       "city": "Salem",
       "state": "Massachusetts",
@@ -24447,7 +24454,7 @@
       "parkId": 241
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Dodge Park Playland",
       "city": "Council Bluffs",
       "state": "Iowa",
@@ -24597,7 +24604,7 @@
       "parkId": 244
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Doling Park",
       "city": "Springfield",
       "state": "Missouri",
@@ -25472,7 +25479,7 @@
       "parkId": 249
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Dougie's World",
       "city": "Parksville",
       "state": "British Columbia",
@@ -25597,7 +25604,7 @@
       "parkId": 254
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Dreamland",
       "city": "Decatur",
       "state": "Illinois",
@@ -25697,7 +25704,7 @@
       "parkId": 256
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Dwyer Memorial Park",
       "city": "Homer",
       "state": "New York",
@@ -25847,7 +25854,7 @@
       "parkId": 261
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Easton's Beach",
       "city": "Newport",
       "state": "Rhode Island",
@@ -25972,7 +25979,7 @@
       "parkId": 263
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Edaville Family Theme Park",
       "city": "Carver",
       "state": "Massachusetts",
@@ -25997,7 +26004,7 @@
       "parkId": 263
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Edaville Family Theme Park",
       "city": "Carver",
       "state": "Massachusetts",
@@ -26072,7 +26079,7 @@
       "parkId": 264
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Edgewater Park",
       "city": "Detroit",
       "state": "Michigan",
@@ -26347,7 +26354,7 @@
       "parkId": 268
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Electric Park",
       "city": "Fort Smith",
       "state": "Arkansas",
@@ -26422,7 +26429,7 @@
       "parkId": 270
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Electric Park",
       "city": "Kankakee",
       "state": "Illinois",
@@ -27497,7 +27504,7 @@
       "parkId": 286
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Esquilandia",
       "city": "Guatemala City",
       "state": "Guatemala",
@@ -27722,7 +27729,7 @@
       "parkId": 288
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Excelsior Amusement Park",
       "city": "Excelsior",
       "state": "Minnesota",
@@ -27822,7 +27829,7 @@
       "parkId": 291
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "ExpoCuba",
       "city": "Arroyo Naranjo",
       "state": "Havana",
@@ -28047,7 +28054,7 @@
       "parkId": 295
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Fairview Park",
       "city": "Delmont",
       "state": "Pennsylvania",
@@ -28172,7 +28179,7 @@
       "parkId": 299
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Fairyland Park",
       "city": "Bronx",
       "state": "New York",
@@ -28247,7 +28254,7 @@
       "parkId": 300
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Fairyland Park",
       "city": "Kansas City",
       "state": "Missouri",
@@ -28847,7 +28854,7 @@
       "parkId": 312
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "FastTrax Entertainment",
       "city": "Fort Myers Beach",
       "state": "Florida",
@@ -28872,7 +28879,7 @@
       "parkId": 312
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Feria de la Juventud",
       "city": "Havana",
       "state": "Havana",
@@ -29022,7 +29029,7 @@
       "parkId": 317
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Fire Mountain Amusements",
       "city": "Tyler",
       "state": "Texas",
@@ -29497,7 +29504,7 @@
       "parkId": 327
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Forest Park",
       "city": "Kansas City",
       "state": "Missouri",
@@ -29622,7 +29629,7 @@
       "parkId": 331
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Four Mile Creek Park",
       "city": "Erie",
       "state": "Pennsylvania",
@@ -30322,7 +30329,7 @@
       "parkId": 339
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Frontier Land",
       "city": "Cherokee",
       "state": "North Carolina",
@@ -30472,7 +30479,7 @@
       "parkId": 344
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Fun Fair Amusement Park",
       "city": "Falls Church",
       "state": "Virginia",
@@ -31047,7 +31054,7 @@
       "parkId": 356
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Fun Spot America Atlanta",
       "city": "Fayetteville",
       "state": "Georgia",
@@ -31347,7 +31354,7 @@
       "parkId": 359
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Fun Spots",
       "city": "Newport",
       "state": "Kentucky",
@@ -31497,7 +31504,7 @@
       "parkId": 364
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Fun Town",
       "city": "Milwaukee",
       "state": "Wisconsin",
@@ -31647,7 +31654,7 @@
       "parkId": 368
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Funland Park",
       "city": "Kingston",
       "state": "Saint Andrew",
@@ -31697,7 +31704,7 @@
       "parkId": 370
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Funland Park",
       "city": "Miami",
       "state": "Florida",
@@ -31722,7 +31729,7 @@
       "parkId": 370
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Funland Park",
       "city": "San Angelo",
       "state": "Texas",
@@ -32447,7 +32454,7 @@
       "parkId": 386
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Gala Park",
       "city": "Jackson Heights",
       "state": "New York",
@@ -32697,7 +32704,7 @@
       "parkId": 393
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Gayway",
       "city": "Seaside",
       "state": "Oregon",
@@ -33797,7 +33804,7 @@
       "parkId": 403
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Glen Park",
       "city": "Williamsville",
       "state": "New York",
@@ -33822,7 +33829,7 @@
       "parkId": 404
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Glendale Park",
       "city": "Nashville",
       "state": "Tennessee",
@@ -34347,7 +34354,7 @@
       "parkId": 417
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Granite Park",
       "city": "Fresno",
       "state": "California",
@@ -34697,7 +34704,7 @@
       "parkId": 420
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Great Escape",
       "city": "Queensbury",
       "state": "New York",
@@ -34872,7 +34879,7 @@
       "parkId": 423
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Greater Ontario Beach",
       "city": "Rochester",
       "state": "New York",
@@ -34897,7 +34904,7 @@
       "parkId": 423
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Greater Ontario Beach",
       "city": "Rochester",
       "state": "New York",
@@ -34922,7 +34929,7 @@
       "parkId": 423
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Greater Ontario Beach",
       "city": "Rochester",
       "state": "New York",
@@ -35022,7 +35029,7 @@
       "parkId": 426
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Griffen Amusement Park",
       "city": "Jacksonville Beach",
       "state": "Florida",
@@ -35297,7 +35304,7 @@
       "parkId": 432
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Habana Park",
       "city": "Havana",
       "state": "Havana",
@@ -35397,7 +35404,7 @@
       "parkId": 434
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Hamel's Park",
       "city": "Shreveport",
       "state": "Louisiana",
@@ -36547,7 +36554,7 @@
       "parkId": 451
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Highland Park",
       "city": "Avon",
       "state": "Massachusetts",
@@ -36647,7 +36654,7 @@
       "parkId": 454
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Hipódromo Del Norte",
       "city": "Guatemala City",
       "state": "Guatemala",
@@ -36847,7 +36854,7 @@
       "parkId": 456
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Hocus Pocus Park",
       "city": "Knoxville",
       "state": "Tennessee",
@@ -36922,7 +36929,7 @@
       "parkId": 458
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Holiday Beach",
       "city": "Douglas",
       "state": "Georgia",
@@ -36947,7 +36954,7 @@
       "parkId": 458
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Holiday Hill",
       "city": "St. Louis",
       "state": "Missouri",
@@ -36972,7 +36979,7 @@
       "parkId": 459
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Holiday Hill",
       "city": "St. Louis",
       "state": "Missouri",
@@ -37247,7 +37254,7 @@
       "parkId": 463
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Hollywood Kiddieland",
       "city": "Chicago",
       "state": "Illinois",
@@ -37322,7 +37329,7 @@
       "parkId": 466
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Hot Springs Holiday Resort",
       "city": "Ogden",
       "state": "Utah",
@@ -38097,7 +38104,7 @@
       "parkId": 482
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "In The Game Funtrackers",
       "city": "Corpus Christi",
       "state": "Texas",
@@ -38247,7 +38254,7 @@
       "parkId": 486
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Indian Nations Park",
       "city": "Jenks",
       "state": "Oklahoma",
@@ -38272,7 +38279,7 @@
       "parkId": 486
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Indian Trail Park",
       "city": "Northampton",
       "state": "Pennsylvania",
@@ -38797,7 +38804,7 @@
       "parkId": 495
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Isla del Coco",
       "city": "Havana",
       "state": "Havana",
@@ -39872,7 +39879,7 @@
       "parkId": 529
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Jolly Cholly's Funland",
       "city": "North Attleboro",
       "state": "Massachusetts",
@@ -40297,7 +40304,7 @@
       "parkId": 531
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Jolly Roger Amusement Park",
       "city": "Ocean City",
       "state": "Maryland",
@@ -40597,7 +40604,7 @@
       "parkId": 535
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Joyland Amusement Park",
       "city": "Lubbock",
       "state": "Texas",
@@ -40622,7 +40629,7 @@
       "parkId": 535
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Joyland Park",
       "city": "Decatur",
       "state": "Illinois",
@@ -40697,7 +40704,7 @@
       "parkId": 537
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Joyland",
       "city": "Clearwater Beach",
       "state": "Florida",
@@ -40947,7 +40954,7 @@
       "parkId": 544
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Juegos Mecanicos Del Bosque",
       "city": "Torreón",
       "state": "Coahuila",
@@ -40997,7 +41004,7 @@
       "parkId": 546
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Junction Park",
       "city": "New Brighton",
       "state": "Pennsylvania",
@@ -41147,7 +41154,7 @@
       "parkId": 550
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Katy Road Kiddieland",
       "city": "Houston",
       "state": "Texas",
@@ -41347,7 +41354,7 @@
       "parkId": 553
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Keansburg Amusement Park",
       "city": "Keansburg",
       "state": "New Jersey",
@@ -41372,7 +41379,7 @@
       "parkId": 553
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Keewahdin Park",
       "city": "Port Huron",
       "state": "Michigan",
@@ -42297,7 +42304,7 @@
       "parkId": 561
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Kiddie City",
       "city": "Douglaston",
       "state": "New York",
@@ -42322,7 +42329,7 @@
       "parkId": 561
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Kiddie Land Amusement Park",
       "city": "Galveston",
       "state": "Texas",
@@ -42447,7 +42454,7 @@
       "parkId": 566
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Kiddie Playland",
       "city": "North Randall",
       "state": "Ohio",
@@ -42472,7 +42479,7 @@
       "parkId": 567
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Kiddie Wonderland",
       "city": "River Edge",
       "state": "New Jersey",
@@ -42597,7 +42604,7 @@
       "parkId": 572
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Kiddieland",
       "city": "Cherry Hill",
       "state": "New Jersey",
@@ -42647,7 +42654,7 @@
       "parkId": 574
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Kiddieland",
       "city": "Laconia",
       "state": "New Hampshire",
@@ -42697,7 +42704,7 @@
       "parkId": 576
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Kiddieland",
       "city": "Overland Park",
       "state": "Kansas",
@@ -42897,7 +42904,7 @@
       "parkId": 583
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Kid's World",
       "city": "Long Branch",
       "state": "New Jersey",
@@ -42972,7 +42979,7 @@
       "parkId": 585
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "King Edward Amusement Park",
       "city": "Boucherville",
       "state": "Québec",
@@ -44122,7 +44129,7 @@
       "parkId": 592
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Kirby Family Farm",
       "city": "Williston",
       "state": "Florida",
@@ -45072,7 +45079,7 @@
       "parkId": 602
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "La Feria Chapultepec Magico",
       "city": "Mexico City",
       "state": "Mexico",
@@ -46222,7 +46229,7 @@
       "parkId": 612
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lake George Action Park",
       "city": "Lake George",
       "state": "New York",
@@ -46247,7 +46254,7 @@
       "parkId": 612
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lake George Amusement Park",
       "city": "Lake George",
       "state": "New York",
@@ -46297,7 +46304,7 @@
       "parkId": 614
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lake George Expedition Park",
       "city": "Lake George",
       "state": "New York",
@@ -46947,7 +46954,7 @@
       "parkId": 620
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lakeside Amusement Park",
       "city": "Denver",
       "state": "Colorado",
@@ -47222,7 +47229,7 @@
       "parkId": 627
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lakeview Amusement Park",
       "city": "Mendon",
       "state": "Massachusetts",
@@ -47322,7 +47329,7 @@
       "parkId": 629
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lakeview Park",
       "city": "Dracut",
       "state": "Massachusetts",
@@ -47547,7 +47554,7 @@
       "parkId": 633
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lakewood Park",
       "city": "Durham",
       "state": "North Carolina",
@@ -47572,7 +47579,7 @@
       "parkId": 634
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lakewood Park",
       "city": "Vincennes",
       "state": "Indiana",
@@ -48447,7 +48454,7 @@
       "parkId": 650
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "LeSourdsville Lake Amusement Park",
       "city": "Monroe",
       "state": "Ohio",
@@ -48747,7 +48754,7 @@
       "parkId": 656
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lincoln Park",
       "city": "Cleveland",
       "state": "Ohio",
@@ -48922,7 +48929,7 @@
       "parkId": 658
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "London, Las Vegas",
       "city": "Las Vegas",
       "state": "Nevada",
@@ -48947,7 +48954,7 @@
       "parkId": 659
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Long Beach Resort",
       "city": "Panama City Beach",
       "state": "Florida",
@@ -48997,7 +49004,7 @@
       "parkId": 661
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Long Branch Park",
       "city": "Syracuse",
       "state": "New York",
@@ -49147,7 +49154,7 @@
       "parkId": 663
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Los Angeles County Fairgrounds",
       "city": "Pomona",
       "state": "California",
@@ -49172,7 +49179,7 @@
       "parkId": 663
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lost Island Theme Park",
       "city": "Waterloo",
       "state": "Iowa",
@@ -49197,7 +49204,7 @@
       "parkId": 664
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lost Island Theme Park",
       "city": "Waterloo",
       "state": "Iowa",
@@ -49222,7 +49229,7 @@
       "parkId": 664
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Lost Island Theme Park",
       "city": "Waterloo",
       "state": "Iowa",
@@ -49722,7 +49729,7 @@
       "parkId": 670
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Luna Park",
       "city": "Brooklyn",
       "state": "New York",
@@ -49747,7 +49754,7 @@
       "parkId": 670
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Luna Park",
       "city": "Brooklyn",
       "state": "New York",
@@ -49947,7 +49954,7 @@
       "parkId": 673
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Luna Park",
       "city": "Los Angeles",
       "state": "California",
@@ -49972,7 +49979,7 @@
       "parkId": 674
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Luna Park",
       "city": "Mansfield",
       "state": "Ohio",
@@ -49997,7 +50004,7 @@
       "parkId": 675
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Luna Park",
       "city": "Mansfield",
       "state": "Ohio",
@@ -50022,7 +50029,7 @@
       "parkId": 675
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Luna Park",
       "city": "Pittsburgh",
       "state": "Pennsylvania",
@@ -50872,7 +50879,7 @@
       "parkId": 696
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Marshall Hall Park",
       "city": "Bryans Road",
       "state": "Maryland",
@@ -50897,7 +50904,7 @@
       "parkId": 696
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Massapequa Zoo & Kiddie Park",
       "city": "Massapequa Park",
       "state": "New York",
@@ -50947,7 +50954,7 @@
       "parkId": 698
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Maumee Kiddieland",
       "city": "Maumee",
       "state": "Ohio",
@@ -50997,7 +51004,7 @@
       "parkId": 700
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "McCorrough's Kiddie Park",
       "city": "Brooklyn",
       "state": "New York",
@@ -51047,7 +51054,7 @@
       "parkId": 701
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Meadowbrook Park",
       "city": "Bascom",
       "state": "Ohio",
@@ -51097,7 +51104,7 @@
       "parkId": 703
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Memorial Park",
       "city": "Williamsport",
       "state": "Pennsylvania",
@@ -53722,7 +53729,7 @@
       "parkId": 745
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Nantasket Point Midway",
       "city": "Hull",
       "state": "Massachusetts",
@@ -53897,7 +53904,7 @@
       "parkId": 749
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "National Drive-In Theater",
       "city": "Camden",
       "state": "New Jersey",
@@ -54272,7 +54279,7 @@
       "parkId": 758
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "New Liberty Park",
       "city": "Buffalo",
       "state": "New York",
@@ -55072,7 +55079,7 @@
       "parkId": 769
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Nolan's Point Amusement Park",
       "city": "Lake Hopatcong",
       "state": "New Jersey",
@@ -55097,7 +55104,7 @@
       "parkId": 770
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "North Beach - Independent Vendor 1",
       "city": "Jackson Heights",
       "state": "New York",
@@ -55172,7 +55179,7 @@
       "parkId": 773
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Northern Electric Park",
       "city": "Clarks Summit",
       "state": "Pennsylvania",
@@ -55272,7 +55279,7 @@
       "parkId": 777
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Nunley's",
       "city": "Baldwin",
       "state": "New York",
@@ -55947,7 +55954,7 @@
       "parkId": 789
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Ocean Playland",
       "city": "Ocean City",
       "state": "Maryland",
@@ -56822,7 +56829,7 @@
       "parkId": 799
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Olympic Park",
       "city": "Rochester",
       "state": "New York",
@@ -57147,7 +57154,7 @@
       "parkId": 805
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "P. B. A. Amusement Park",
       "city": "Miami",
       "state": "Florida",
@@ -57322,7 +57329,7 @@
       "parkId": 808
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Pacific Ocean Park",
       "city": "Santa Monica",
       "state": "California",
@@ -58222,7 +58229,7 @@
       "parkId": 814
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Paradise Lake",
       "city": "Wills Township",
       "state": "Ohio",
@@ -58247,7 +58254,7 @@
       "parkId": 814
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Paradise Park",
       "city": "New York",
       "state": "New York",
@@ -58397,7 +58404,7 @@
       "parkId": 816
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Paragon Park",
       "city": "Hull",
       "state": "Massachusetts",
@@ -58497,7 +58504,7 @@
       "parkId": 817
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Parc Belmont",
       "city": "Montréal",
       "state": "Québec",
@@ -59122,7 +59129,7 @@
       "parkId": 829
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Parque El Dorado",
       "city": "Panama City",
       "state": "Panamá",
@@ -59197,7 +59204,7 @@
       "parkId": 832
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Parque Guadiana",
       "city": "Durango",
       "state": "Durango",
@@ -59222,7 +59229,7 @@
       "parkId": 833
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Parque Heroes Mexicanos",
       "city": "Aguascalientes",
       "state": "Aguascalientes",
@@ -59272,7 +59279,7 @@
       "parkId": 835
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Parque Infantil de DIF",
       "city": "Cancún",
       "state": "Quintana Roo",
@@ -59322,7 +59329,7 @@
       "parkId": 837
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Parque Infantil Ostimuri",
       "city": "Ciudad Obregón",
       "state": "Sonora",
@@ -59347,7 +59354,7 @@
       "parkId": 838
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Parque Infantil Ostimuri",
       "city": "Ciudad Obregón",
       "state": "Sonora",
@@ -59572,7 +59579,7 @@
       "parkId": 843
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Parque Luis Alfonso Velasquez",
       "city": "Managua",
       "state": "Managua",
@@ -60097,7 +60104,7 @@
       "parkId": 859
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Peppermint Land",
       "city": "Jekyll Island",
       "state": "Georgia",
@@ -60222,7 +60229,7 @@
       "parkId": 862
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Peter Pan Kiddie Land",
       "city": "West Nyack",
       "state": "New York",
@@ -60497,7 +60504,7 @@
       "parkId": 870
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Pine Island Park",
       "city": "Manchester",
       "state": "New Hampshire",
@@ -60972,7 +60979,7 @@
       "parkId": 878
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Playland at the Beach",
       "city": "San Francisco",
       "state": "California",
@@ -60997,7 +61004,7 @@
       "parkId": 878
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Playland at the Beach",
       "city": "San Francisco",
       "state": "California",
@@ -61172,7 +61179,7 @@
       "parkId": 882
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Playland Park",
       "city": "Houston",
       "state": "Texas",
@@ -61197,7 +61204,7 @@
       "parkId": 882
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Playland Park",
       "city": "Jacksonville Beach",
       "state": "Florida",
@@ -61297,7 +61304,7 @@
       "parkId": 884
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Playland Park",
       "city": "Philadelphia",
       "state": "Pennsylvania",
@@ -61922,7 +61929,7 @@
       "parkId": 892
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Playland Pier",
       "city": "Coeur d'Alene",
       "state": "Idaho",
@@ -62447,7 +62454,7 @@
       "parkId": 896
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Playland",
       "city": "Vancouver",
       "state": "British Columbia",
@@ -63222,7 +63229,7 @@
       "parkId": 915
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Quebec Provincial Exhibition Park",
       "city": "Quebec City",
       "state": "Québec",
@@ -63772,7 +63779,7 @@
       "parkId": 925
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Recreation Park",
       "city": "Asheville",
       "state": "North Carolina",
@@ -64347,7 +64354,7 @@
       "parkId": 933
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Ringing Rocks Park",
       "city": "Pottstown",
       "state": "Pennsylvania",
@@ -65497,7 +65504,7 @@
       "parkId": 943
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Riverview Park",
       "city": "Sioux City",
       "state": "Iowa",
@@ -65597,7 +65604,7 @@
       "parkId": 946
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Rock Point Park",
       "city": "Ellwood City",
       "state": "Pennsylvania",
@@ -65672,7 +65679,7 @@
       "parkId": 947
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Rock Springs Park",
       "city": "Chester",
       "state": "West Virginia",
@@ -66622,7 +66629,7 @@
       "parkId": 957
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Roseland Park",
       "city": "Canandaigua",
       "state": "New York",
@@ -66872,7 +66879,7 @@
       "parkId": 963
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Royal Land",
       "city": "Meridian",
       "state": "Mississippi",
@@ -68172,7 +68179,7 @@
       "parkId": 982
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Santa's Workshop",
       "city": "Cascade",
       "state": "Colorado",
@@ -69322,7 +69329,7 @@
       "parkId": 1000
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Seabreeze",
       "city": "Rochester",
       "state": "New York",
@@ -69397,7 +69404,7 @@
       "parkId": 1001
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Seaway Kiddieland",
       "city": "Massena",
       "state": "New York",
@@ -70347,7 +70354,7 @@
       "parkId": 1016
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Shady Grove Park",
       "city": "Lemont Furnace",
       "state": "Pennsylvania",
@@ -70372,7 +70379,7 @@
       "parkId": 1016
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Shady Grove Park",
       "city": "Lemont Furnace",
       "state": "Pennsylvania",
@@ -71447,7 +71454,7 @@
       "parkId": 1029
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Six Flags America",
       "city": "Upper Marlboro",
       "state": "Maryland",
@@ -71997,7 +72004,7 @@
       "parkId": 1031
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Six Flags Darien Lake",
       "city": "Darien Center",
       "state": "New York",
@@ -77072,7 +77079,7 @@
       "parkId": 1044
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Six Gun Territory",
       "city": "Willow Grove",
       "state": "Pennsylvania",
@@ -77197,7 +77204,7 @@
       "parkId": 1048
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Smiley's Happyland",
       "city": "Bethpage",
       "state": "New York",
@@ -77222,7 +77229,7 @@
       "parkId": 1048
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Smiley's Happyland",
       "city": "Bethpage",
       "state": "New York",
@@ -77497,7 +77504,7 @@
       "parkId": 1054
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "South Dakota State Fair",
       "city": "Huron",
       "state": "South Dakota",
@@ -77522,7 +77529,7 @@
       "parkId": 1055
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "South Gate Kiddieland",
       "city": "Milwaukee",
       "state": "Wisconsin",
@@ -77647,7 +77654,7 @@
       "parkId": 1060
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Spaceland",
       "city": "Nassau",
       "state": "New York",
@@ -77922,7 +77929,7 @@
       "parkId": 1066
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Splash",
       "city": "Nuevo México",
       "state": "Guanajuato",
@@ -78072,7 +78079,7 @@
       "parkId": 1068
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Sportland Pier",
       "city": "Wildwood",
       "state": "New Jersey",
@@ -78372,7 +78379,7 @@
       "parkId": 1075
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Stahley's",
       "city": "Rochester",
       "state": "New York",
@@ -78497,7 +78504,7 @@
       "parkId": 1079
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Stanton Park",
       "city": "Steubenville",
       "state": "Ohio",
@@ -78522,7 +78529,7 @@
       "parkId": 1079
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Starlight Amusement Park",
       "city": "Bronx",
       "state": "New York",
@@ -79372,7 +79379,7 @@
       "parkId": 1088
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Steeplechase Pier",
       "city": "Atlantic City",
       "state": "New Jersey",
@@ -79397,7 +79404,7 @@
       "parkId": 1089
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Stella Park",
       "city": "Jackson Heights",
       "state": "New York",
@@ -79422,7 +79429,7 @@
       "parkId": 1090
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Stella Park",
       "city": "Jackson Heights",
       "state": "New York",
@@ -79647,7 +79654,7 @@
       "parkId": 1096
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Storyland",
       "city": "Pompano Beach",
       "state": "Florida",
@@ -79797,7 +79804,7 @@
       "parkId": 1100
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Suburban Gardens",
       "city": "Northeast",
       "state": "Washington, D.C.",
@@ -79922,7 +79929,7 @@
       "parkId": 1103
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Suburban Park",
       "city": "Manlius",
       "state": "New York",
@@ -80147,7 +80154,7 @@
       "parkId": 1106
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Sun Fun Park",
       "city": "North Myrtle Beach",
       "state": "South Carolina",
@@ -80222,7 +80229,7 @@
       "parkId": 1108
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Sunrise Park",
       "city": "Binghamton",
       "state": "New York",
@@ -80372,7 +80379,7 @@
       "parkId": 1112
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Swings-N-Things Family Fun Park",
       "city": "Olmsted Township",
       "state": "Ohio",
@@ -80547,7 +80554,7 @@
       "parkId": 1117
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Teleferico San Jacinto",
       "city": "San Salvador",
       "state": "San Salvador",
@@ -80897,7 +80904,7 @@
       "parkId": 1127
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Todo en Uno",
       "city": "Varadero",
       "state": "Matanzas",
@@ -81147,7 +81154,7 @@
       "parkId": 1132
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Tower View Park",
       "city": "Niagara Falls",
       "state": "Ontario",
@@ -81572,7 +81579,7 @@
       "parkId": 1141
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Tweetsie Railroad",
       "city": "Blowing Rock",
       "state": "North Carolina",
@@ -81597,7 +81604,7 @@
       "parkId": 1142
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Twin Fair Kiddieland",
       "city": "Depew",
       "state": "New York",
@@ -82797,7 +82804,7 @@
       "parkId": 1166
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Virginia Park",
       "city": "Long Beach",
       "state": "California",
@@ -82897,7 +82904,7 @@
       "parkId": 1170
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Walbridge Park",
       "city": "Toledo",
       "state": "Ohio",
@@ -83497,7 +83504,7 @@
       "parkId": 1179
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Washington Park",
       "city": "Hammond",
       "state": "Indiana",
@@ -83522,7 +83529,7 @@
       "parkId": 1180
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Washington Park",
       "city": "Michigan City",
       "state": "Indiana",
@@ -83972,7 +83979,7 @@
       "parkId": 1188
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Waverly Park",
       "city": "Lansing",
       "state": "Michigan",
@@ -84847,7 +84854,7 @@
       "parkId": 1203
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Whalom Park",
       "city": "Lunenburg",
       "state": "Massachusetts",
@@ -85422,7 +85429,7 @@
       "parkId": 1213
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "White City",
       "city": "New Orleans",
       "state": "Louisiana",
@@ -85622,7 +85629,7 @@
       "parkId": 1217
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "White City",
       "city": "Toledo",
       "state": "Ohio",
@@ -86222,7 +86229,7 @@
       "parkId": 1227
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Wild Waters Water Park",
       "city": "Erie",
       "state": "Pennsylvania",
@@ -86372,7 +86379,7 @@
       "parkId": 1229
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Wild West World",
       "city": "Custer",
       "state": "South Dakota",
@@ -86397,7 +86404,7 @@
       "parkId": 1230
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Wild West World",
       "city": "Custer",
       "state": "South Dakota",
@@ -86747,7 +86754,7 @@
       "parkId": 1238
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Willow Beach Park",
       "city": "Toledo",
       "state": "Ohio",
@@ -86797,7 +86804,7 @@
       "parkId": 1240
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Willow Mill Park",
       "city": "Mechanicsburg",
       "state": "Pennsylvania",
@@ -86847,7 +86854,7 @@
       "parkId": 1241
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Willow Park",
       "city": "Butztown",
       "state": "Pennsylvania",
@@ -86872,7 +86879,7 @@
       "parkId": 1241
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Willow Point Park",
       "city": "Webster",
       "state": "New York",
@@ -86972,7 +86979,7 @@
       "parkId": 1244
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Winnipeg Beach",
       "city": "Winnipeg Beach",
       "state": "Manitoba",
@@ -86997,7 +87004,7 @@
       "parkId": 1244
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Winnwood Beach",
       "city": "Kansas City",
       "state": "Missouri",
@@ -87072,7 +87079,7 @@
       "parkId": 1247
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Wonder Island",
       "city": "Punta Cana",
       "state": "La Altagracia",
@@ -87347,7 +87354,7 @@
       "parkId": 1253
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Wonderland",
       "city": "Wyandotte",
       "state": "Michigan",
@@ -87547,7 +87554,7 @@
       "parkId": 1260
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Woodlawn Beach Park",
       "city": "Lackawanna",
       "state": "New York",
@@ -88497,7 +88504,7 @@
       "parkId": 1271
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "Zapp's Park",
       "city": "Fresno",
       "state": "California",
@@ -88672,7 +88679,7 @@
       "parkId": 1277
     },
     {
-      "name": "unknown",
+      "name": "",
       "parkName": "ZooTampa at Lowry Park",
       "city": "Tampa",
       "state": "Florida",
@@ -88779,9 +88786,9 @@
       "rideId": 868
     },
     {
-    "id": 2,
-    "userId": 1,
-    "rideId": 2296
+      "id": 2,
+      "userId": 1,
+      "rideId": 2296
     }
   ]
 }

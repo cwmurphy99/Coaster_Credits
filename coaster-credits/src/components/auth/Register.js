@@ -41,7 +41,7 @@ export const Register = () => {
                     body: JSON.stringify({
                         email: registerUser.email,
                         name: `${registerUser.firstName} ${registerUser.lastName}`,
-                        nickname: `${registerUser.nickName}`,
+                        nickName: `${registerUser.nickName}`,
                         isAdmin: false,
                     }),
                 })
