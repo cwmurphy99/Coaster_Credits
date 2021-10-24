@@ -4,7 +4,8 @@ import { Login } from "./components/auth/Login";
 import { Register } from "./components/auth/Register";
 import { ApplicationViews } from "./components/ApplicationViews";
 import { NavBar } from "./components/nav/NavBar";
-
+import { Footer } from "./components/footer/Footer";
+import '../src/components/CoasterCredits.css';
 
 export const CoasterCredits = () => (
     <>
@@ -15,6 +16,7 @@ export const CoasterCredits = () => (
                         <>
                             <NavBar />
                             <ApplicationViews />
+                            <Footer />
                         </>
                     );
                 } else {

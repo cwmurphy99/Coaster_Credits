@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "RollerCoaster";
+    src: url("../components/fonts/RollerCoaster.ttf");
+}
+
+html {
+    background-color: #8ebff4;
+}
+
+body{
+    font-family: 'RollerCoaster';
+}

@@ -94,7 +94,16 @@ updateEntry(target, updatedEntry) {
 }
 
 
-
+getAllRidesByPark(target, parkId, expandArray = []) {
+    let expandQuery = expandArray.length > 0 ? "?" : "";
+    if (expandArray.length > 0) {
+        expandArray.forEach((elem) => {
+            expandQuery += `_expand=${elem}&`;
+        });
+    }
+    let url = `${remoteURL}/${target}/${expandQuery}`;
+    return fetch(url).then((res) => res.json());
+}
 
 
 
