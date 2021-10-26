@@ -13,7 +13,7 @@ export const Footer = () => {
                     <div className="footer-copyrite">
                         <p>&copy; 2021 - Nashville Software School</p>
                     </div>
-
+                    
                     <div>
                         <a href="" target="_blank" className="footer-imageProfileImage"><img src={profileImage} /> </a>
                     </div>

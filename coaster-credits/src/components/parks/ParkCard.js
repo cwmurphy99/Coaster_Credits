@@ -2,7 +2,7 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import './Park.css';
 
-export const ParkCard = ({ park }) => {
+export const ParkCard = ({ park, getCredits }) => {
   const history = useHistory();
 
   const handleGetDetails = () => {
@@ -13,7 +13,7 @@ export const ParkCard = ({ park }) => {
     <>
       <section className="park">
         <div className="park-content">
-
+          <div className="park-card">
           {park.name ? <h3 className="park-name"> Park Name: {park?.name} </h3> : <h3 className="park-name"> Park Name: Unknown </h3>}
 
           {park.city ? <p className="park-city"> City: {park?.city} </p> : <p className="park-city"> City: Unknown </p>}
@@ -25,7 +25,7 @@ export const ParkCard = ({ park }) => {
           <button className="park-detailsButton" type="button" onClick={handleGetDetails} > Select This Park </button>
 
           {/* <button className="park-deleteButton" type="button" onClick={handleDeletePark(park.id)} > Delete This Park </button> */}
-
+          </div>
         </div>
       </section>
     </>

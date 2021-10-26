@@ -1,0 +1,34 @@
+.park-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.park-selection {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.park-card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-right: 10px;
+}
+
+
+.park-detailSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.park-detail {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.park-card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-right: 10px;
+}
