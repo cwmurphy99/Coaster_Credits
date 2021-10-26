@@ -2,20 +2,20 @@
   "users": [
     {
       "name": "Chris",
-      "email": "me@cc.com",
+      "email": "chris@cc.com",
       "nickName": "Smurph",
       "id": 1,
       "isAdmin": true
     },
     {
-      "email": "her@cc.com",
+      "email": "april@cc.com",
       "name": "April Murphy",
       "nickName": "Soapy",
       "id": 2,
       "isAdmin": false
     },
     {
-      "email": "her2@cc.com",
+      "email": "lindsay@cc.com",
       "name": "Lindsay Fuller",
       "nickName": "Loobndsooby",
       "isAdmin": false,
