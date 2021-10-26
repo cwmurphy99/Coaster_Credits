@@ -2,24 +2,164 @@
   "users": [
     {
       "name": "Chris",
-      "email": "me@cc.com",
+      "email": "chris@cc.com",
       "nickName": "Smurph",
       "id": 1,
       "isAdmin": true
     },
     {
-      "email": "her@cc.com",
+      "email": "april@cc.com",
       "name": "April Murphy",
       "nickName": "Soapy",
       "id": 2,
       "isAdmin": false
     },
     {
-      "email": "her2@cc.com",
+      "email": "lindsay@cc.com",
       "name": "Lindsay Fuller",
       "nickName": "Loobndsooby",
       "isAdmin": false,
       "id": 3
+    }
+  ],
+  "credits": [
+    {
+      "rideId": 236,
+      "userId": 2,
+      "date": "2021-10-26T19:53:12.992Z",
+      "id": 3
+    },
+    {
+      "rideId": 863,
+      "userId": 1,
+      "date": "2021-10-26T20:04:05.049Z",
+      "id": 6
+    },
+    {
+      "rideId": 868,
+      "userId": 1,
+      "date": "2021-10-26T20:04:05.052Z",
+      "id": 7
+    },
+    {
+      "rideId": 1493,
+      "userId": 1,
+      "date": "2021-10-26T20:32:50.634Z",
+      "id": 12
+    },
+    {
+      "rideId": 1103,
+      "userId": 1,
+      "date": "2021-10-26T20:43:53.491Z",
+      "id": 16
+    },
+    {
+      "rideId": 192,
+      "userId": 1,
+      "date": "2021-10-26T21:02:26.231Z",
+      "id": 18
+    },
+    {
+      "rideId": 236,
+      "userId": 1,
+      "date": "2021-10-26T21:02:28.078Z",
+      "id": 19
+    },
+    {
+      "rideId": 141,
+      "userId": 1,
+      "date": "2021-10-26T21:02:31.325Z",
+      "id": 20
+    },
+    {
+      "rideId": 788,
+      "userId": 1,
+      "date": "2021-10-26T21:04:34.793Z",
+      "id": 21
+    },
+    {
+      "rideId": 348,
+      "userId": 1,
+      "date": "2021-10-26T21:05:07.727Z",
+      "id": 22
+    },
+    {
+      "rideId": 1506,
+      "userId": 1,
+      "date": "2021-10-26T21:05:19.499Z",
+      "id": 23
+    },
+    {
+      "rideId": 1529,
+      "userId": 1,
+      "date": "2021-10-26T21:05:26.264Z",
+      "id": 24
+    },
+    {
+      "rideId": 1810,
+      "userId": 1,
+      "date": "2021-10-26T21:05:31.321Z",
+      "id": 25
+    },
+    {
+      "rideId": 1838,
+      "userId": 1,
+      "date": "2021-10-26T21:05:32.861Z",
+      "id": 26
+    },
+    {
+      "rideId": 2016,
+      "userId": 1,
+      "date": "2021-10-26T21:05:33.811Z",
+      "id": 27
+    },
+    {
+      "rideId": 2314,
+      "userId": 1,
+      "date": "2021-10-26T21:05:35.146Z",
+      "id": 28
+    },
+    {
+      "rideId": 2518,
+      "userId": 1,
+      "date": "2021-10-26T21:05:37.684Z",
+      "id": 29
+    },
+    {
+      "rideId": 2587,
+      "userId": 1,
+      "date": "2021-10-26T21:05:41.123Z",
+      "id": 30
+    },
+    {
+      "rideId": 2687,
+      "userId": 1,
+      "date": "2021-10-26T21:05:42.202Z",
+      "id": 31
+    },
+    {
+      "rideId": 1109,
+      "userId": 1,
+      "date": "2021-10-26T21:06:42.401Z",
+      "id": 32
+    },
+    {
+      "rideId": 2763,
+      "userId": 1,
+      "date": "2021-10-26T21:06:44.499Z",
+      "id": 33
+    },
+    {
+      "rideId": 2046,
+      "userId": 1,
+      "date": "2021-10-26T21:06:46.676Z",
+      "id": 34
+    },
+    {
+      "rideId": 1470,
+      "userId": 1,
+      "date": "2021-10-26T21:06:57.617Z",
+      "id": 35
     }
   ],
   "parks": [
@@ -88777,18 +88917,6 @@
       "ended": "2007",
       "id": 1587,
       "parkId": 1279
-    }
-  ],
-  "credits": [
-    {
-      "id": 1,
-      "userId": 1,
-      "rideId": 868
-    },
-    {
-      "id": 2,
-      "userId": 1,
-      "rideId": 2296
     }
   ]
 }
