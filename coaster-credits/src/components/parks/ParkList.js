@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { ParkCard } from "./ParkCard";
 import './Park.css';
 
-export const ParkList = () => {
+export const ParkList = ({ getCredits }) => {
 
     const [parks, setParks] = useState();
 
@@ -29,7 +29,9 @@ export const ParkList = () => {
         <>
             <section className="park-section">
                 <h2>Welcome to the Park Section</h2>
-                {parks?.map(singlePark => <ParkCard key={singlePark.id} park={singlePark} />).slice(141, 145)}
+                <div className="park-selection">
+                {parks?.map(singlePark => <ParkCard key={singlePark.id} park={singlePark} getCredits={getCredits} />).slice(141, 145)}
+                </div>
             </section>
         </>
     );

@@ -8,7 +8,7 @@ import { RideCredit } from "../rides/RideCredit";
 const apiParkReturn = new APIManager();
 const currentUser = parseInt(sessionStorage.getItem("coasterCredit_user"));
 
-export const ParkDetail = () => {
+export const ParkDetail = ({getCredits}) => {
     const [park, setPark] = useState({
         id: "",
         user: "",
@@ -53,30 +53,30 @@ export const ParkDetail = () => {
                 <div className="park-detail">
 
                     <h3 className="park-Name"> <strong> Name: {park.name} </strong> </h3>
-                    <div className="event__details"> <strong> City: </strong> {park.city} </div>
-                    <div className="event__details"> <strong> State: </strong> {park.state} </div>
-                    <div className="event__details"> <strong> Country: </strong> {park.country} </div>
+                    <div className="park-parkDetails"> <strong> City: </strong> {park.city} </div>
+                    <div className="park-parkDetails"> <strong> State: </strong> {park.state} </div>
+                    <div className="park-parkDetails"> <strong> Country: </strong> {park.country} </div>
 
                     {currentUser === 1 ?
 
                         <div>
 
-                            <button className="parks-deleteButton" type="button" disabled={isLoading} onClick={handleDeletePark} > Delete This Park </button>
-                            <button className="parks-editButton" type="button" disabled={isLoading} onClick={() => history.push(`/parks/${parkId}/edit`)} > Edit This Park </button>
-                            <button type="button" className="event__goBack" onClick={handleBack} > Go Back </button>
+                            <button className="park-deleteButton" type="button" disabled={isLoading} onClick={handleDeletePark} > Delete This Park </button>
+                            <button className="park-editButton" type="button" disabled={isLoading} onClick={() => history.push(`/parks/${parkId}/edit`)} > Edit This Park </button>
+                            <button type="button" className="park-backButton" onClick={handleBack} > Go Back </button>
                             
                         </div>
 
                         :
                         
-                        <button type="button" className="event__goBack" onClick={handleBack} > Go Back </button>
+                        <button type="button" className="park-backButton" onClick={handleBack} > Go Back </button>
 
                     }
 
                 </div>
             </section>
 
-        <RideCredit parkId={parkId} />
+        <RideCredit parkId={parkId} getCredits={getCredits} />
 
         </>
     )

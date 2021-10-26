@@ -3,30 +3,29 @@ import { RideCard } from './RideCard';
 import './Ride.css';
 
 
-export const RideCredit = ({parkId}) => {
+export const RideCredit = ({parkId, getCredits}) => {
 
-    const [credits, setCredits] = useState();
+    const [credits, setCredits] = useState([]);
 
-    const getCredits = () => {
+    const getAllCredits = () => {
         return fetch(`http://localhost:8088/rides?parkId=${parkId}`)
             .then((response) => response.json())
             .then((apiListReturn) => {
 
-                console.log(apiListReturn)
                 setCredits(apiListReturn);
                 
             });
     };
 
     useEffect(() => {
-        getCredits();
+        getAllCredits();
     }, []);
 
     return (
         <>
             <section className="credit-section">
                 <h2>Pick and Choose</h2>
-                {credits?.map(singleCredit => <RideCard key={singleCredit.id} ride={singleCredit} />)}
+                {credits?.map(singleCredit => <RideCard key={singleCredit.id} ride={singleCredit} getCredits={getCredits} />)}
             </section>
         </>
     );
