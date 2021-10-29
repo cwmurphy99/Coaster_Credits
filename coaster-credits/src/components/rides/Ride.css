@@ -1,0 +1,95 @@
+/* THIS SETS THE RIDE CARDS TO DISPLAY IN A GRID PATTERN */
+.credit-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rideList-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+/* THIS IS FOR THE LOGO IMAGE IN THE MIDDLE OF THE PAGE */
+.rideList-logoSection {
+    display: flex;
+    justify-content: center;
+    margin-top: -115px;
+    margin-bottom: 15px;
+}
+.rideList-logoDiv {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    align-content: center;
+}
+.ride-section {
+    display: flex;
+    padding-right: 15px;
+    height: auto;
+    width: auto;
+}
+
+
+.ride-card {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    border: 4px solid #000000;
+    border-radius: 15px;
+}
+/* .ride-detailBtnDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+} */
+
+/* SET THE STYLING FOR LABELS AND VALUES ON ALL OF THE RIDE CARDS */
+/* STYLING FOR RIDE NAME */
+.ride-nameDiv {
+    display: flex;
+    flex-direction: row;
+}
+.ride-name {
+    color: #9D0307;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+/* STYLING FOR RIDE MAKE/MANUFACTURED BY */
+.ride-makeDiv {
+    display: flex;
+    flex-direction: row;
+}
+.ride-make {
+    color: #9D0307;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+/* STYLING FOR RIDE MODEL */
+.ride-modelDiv {
+    display: flex;
+    flex-direction: row;
+}
+.ride-model {
+    color: #9D0307;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+/* STYLING FOR RIDE TYPE */
+.ride-typeDiv {
+    display: flex;
+    flex-direction: row;
+}
+.ride-type {
+    color: #9D0307;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}

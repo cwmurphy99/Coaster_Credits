@@ -4,11 +4,15 @@ import { useHistory, useParams } from "react-router-dom";
 import { RideCard } from "../rides/RideCard";
 import { RideList } from "../rides/RideList";
 import { RideCredit } from "../rides/RideCredit";
+import { Button } from "reactstrap";
+import './ParkDetail.css';
+import '../rides/Ride.css';
+import './Park.css';
 
 const apiParkReturn = new APIManager();
 const currentUser = parseInt(sessionStorage.getItem("coasterCredit_user"));
 
-export const ParkDetail = ({getCredits}) => {
+export const ParkDetail = ({ getCredits }) => {
     const [park, setPark] = useState({
         id: "",
         user: "",
@@ -51,32 +55,37 @@ export const ParkDetail = ({getCredits}) => {
         <>
             <section className="park-detailSection">
                 <div className="park-detail">
+                    <div className="park-detailCard">
 
-                    <h3 className="park-Name"> <strong> Name: {park.name} </strong> </h3>
-                    <div className="park-parkDetails"> <strong> City: </strong> {park.city} </div>
-                    <div className="park-parkDetails"> <strong> State: </strong> {park.state} </div>
-                    <div className="park-parkDetails"> <strong> Country: </strong> {park.country} </div>
-
-                    {currentUser === 1 ?
-
-                        <div>
-
-                            <button className="park-deleteButton" type="button" disabled={isLoading} onClick={handleDeletePark} > Delete This Park </button>
-                            <button className="park-editButton" type="button" disabled={isLoading} onClick={() => history.push(`/parks/${parkId}/edit`)} > Edit This Park </button>
-                            <button type="button" className="park-backButton" onClick={handleBack} > Go Back </button>
-                            
+                        <div className="park-nameDiv">
+                            <h3 className="park-name"> Name: </h3>
+                            <h3 className="park-nameDetail"> {park.name.toUpperCase()} </h3>
                         </div>
 
-                        :
-                        
-                        <button type="button" className="park-backButton" onClick={handleBack} > Go Back </button>
+                        <div className="park-cityDiv">
+                            <h3 className="park-city"> City: </h3>
+                            <h3 className="park-cityDetail"> {park.city} </h3>
+                        </div>
 
-                    }
+                        <div className="park-stateDiv">
+                            <h3 className="park-state"> State: </h3>
+                            <h3 className="park-stateDetail"> {park.state} </h3>
+                        </div>
 
+                        <div className="park-countryDiv">
+                            <h3 className="park-country"> Country: </h3>
+                            <h3 className="park-countryDetail"> {park.country} </h3>
+                        </div>
+
+                        <div className="park-backButtonDiv">
+                            <Button onClick={handleBack} > Go Back </Button>
+                        </div>
+
+                    </div>
                 </div>
             </section>
 
-        <RideCredit parkId={parkId} getCredits={getCredits} />
+            <RideCredit parkId={parkId} getCredits={getCredits} />
 
         </>
     )

@@ -2,6 +2,7 @@
   "users": [
     {
       "name": "Chris",
+      "fullName": "Chris Murphy",
       "email": "chris@cc.com",
       "nickName": "Smurph",
       "id": 1,
@@ -9,14 +10,16 @@
     },
     {
       "email": "april@cc.com",
-      "name": "April Murphy",
+      "name": "April",
+      "fullName": "April Murphy",
       "nickName": "Soapy",
       "id": 2,
       "isAdmin": false
     },
     {
       "email": "lindsay@cc.com",
-      "name": "Lindsay Fuller",
+      "name": "Lindsay",
+      "fullName": "Lindsay Fuller",
       "nickName": "Loobndsooby",
       "isAdmin": false,
       "id": 3
@@ -54,28 +57,10 @@
       "id": 16
     },
     {
-      "rideId": 192,
-      "userId": 1,
-      "date": "2021-10-26T21:02:26.231Z",
-      "id": 18
-    },
-    {
       "rideId": 236,
       "userId": 1,
       "date": "2021-10-26T21:02:28.078Z",
       "id": 19
-    },
-    {
-      "rideId": 141,
-      "userId": 1,
-      "date": "2021-10-26T21:02:31.325Z",
-      "id": 20
-    },
-    {
-      "rideId": 788,
-      "userId": 1,
-      "date": "2021-10-26T21:04:34.793Z",
-      "id": 21
     },
     {
       "rideId": 348,
@@ -112,12 +97,6 @@
       "userId": 1,
       "date": "2021-10-26T21:05:33.811Z",
       "id": 27
-    },
-    {
-      "rideId": 2314,
-      "userId": 1,
-      "date": "2021-10-26T21:05:35.146Z",
-      "id": 28
     },
     {
       "rideId": 2518,
@@ -160,6 +139,222 @@
       "userId": 1,
       "date": "2021-10-26T21:06:57.617Z",
       "id": 35
+    },
+    {
+      "rideId": 141,
+      "userId": 1,
+      "date": "2021-10-27T15:15:10.598Z",
+      "id": 36
+    },
+    {
+      "rideId": 2296,
+      "userId": 1,
+      "date": "2021-10-27T21:15:01.576Z",
+      "id": 37
+    },
+    {
+      "rideId": 2749,
+      "userId": 1,
+      "date": "2021-10-27T21:15:07.919Z",
+      "id": 38
+    },
+    {
+      "rideId": 4,
+      "userId": 1,
+      "date": "2021-10-27T21:16:07.949Z",
+      "id": 39
+    },
+    {
+      "rideId": 52,
+      "userId": 1,
+      "date": "2021-10-27T21:16:11.179Z",
+      "id": 40
+    },
+    {
+      "rideId": 55,
+      "userId": 1,
+      "date": "2021-10-27T21:16:12.885Z",
+      "id": 41
+    },
+    {
+      "rideId": 63,
+      "userId": 1,
+      "date": "2021-10-27T21:16:14.354Z",
+      "id": 42
+    },
+    {
+      "rideId": 83,
+      "userId": 1,
+      "date": "2021-10-27T21:16:20.726Z",
+      "id": 43
+    },
+    {
+      "rideId": 476,
+      "userId": 1,
+      "date": "2021-10-27T21:16:28.184Z",
+      "id": 44
+    },
+    {
+      "rideId": 743,
+      "userId": 1,
+      "date": "2021-10-27T21:16:30.733Z",
+      "id": 45
+    },
+    {
+      "rideId": 757,
+      "userId": 1,
+      "date": "2021-10-27T21:16:31.836Z",
+      "id": 46
+    },
+    {
+      "rideId": 780,
+      "userId": 1,
+      "date": "2021-10-27T21:16:32.901Z",
+      "id": 47
+    },
+    {
+      "rideId": 1102,
+      "userId": 1,
+      "date": "2021-10-27T21:16:34.934Z",
+      "id": 48
+    },
+    {
+      "rideId": 1665,
+      "userId": 1,
+      "date": "2021-10-27T21:16:39.380Z",
+      "id": 49
+    },
+    {
+      "rideId": 1704,
+      "userId": 1,
+      "date": "2021-10-27T21:16:43.434Z",
+      "id": 50
+    },
+    {
+      "rideId": 2625,
+      "userId": 1,
+      "date": "2021-10-27T21:16:44.367Z",
+      "id": 51
+    },
+    {
+      "rideId": 2903,
+      "userId": 1,
+      "date": "2021-10-27T21:17:47.312Z",
+      "id": 52
+    },
+    {
+      "rideId": 2405,
+      "userId": 1,
+      "date": "2021-10-27T21:19:33.853Z",
+      "id": 53
+    },
+    {
+      "rideId": 1847,
+      "userId": 1,
+      "date": "2021-10-27T21:19:38.620Z",
+      "id": 54
+    },
+    {
+      "rideId": 1303,
+      "userId": 1,
+      "date": "2021-10-27T21:19:40.261Z",
+      "id": 55
+    },
+    {
+      "rideId": 1056,
+      "userId": 1,
+      "date": "2021-10-27T21:19:41.356Z",
+      "id": 56
+    },
+    {
+      "rideId": 739,
+      "userId": 1,
+      "date": "2021-10-27T21:19:42.482Z",
+      "id": 57
+    },
+    {
+      "rideId": 249,
+      "userId": 1,
+      "date": "2021-10-27T21:19:43.460Z",
+      "id": 58
+    },
+    {
+      "rideId": 2628,
+      "userId": 1,
+      "date": "2021-10-27T21:19:45.428Z",
+      "id": 59
+    },
+    {
+      "rideId": 240,
+      "userId": 1,
+      "date": "2021-10-27T21:20:15.553Z",
+      "id": 60
+    },
+    {
+      "rideId": 1031,
+      "userId": 1,
+      "date": "2021-10-27T21:20:18.604Z",
+      "id": 61
+    },
+    {
+      "rideId": 1581,
+      "userId": 1,
+      "date": "2021-10-27T21:20:20.098Z",
+      "id": 62
+    },
+    {
+      "rideId": 1895,
+      "userId": 1,
+      "date": "2021-10-27T21:20:21.420Z",
+      "id": 63
+    },
+    {
+      "rideId": 2137,
+      "userId": 1,
+      "date": "2021-10-27T21:20:22.222Z",
+      "id": 64
+    },
+    {
+      "rideId": 2630,
+      "userId": 1,
+      "date": "2021-10-27T21:20:23.047Z",
+      "id": 65
+    },
+    {
+      "rideId": 622,
+      "userId": 1,
+      "date": "2021-10-27T21:20:53.175Z",
+      "id": 66
+    },
+    {
+      "rideId": 1897,
+      "userId": 1,
+      "date": "2021-10-27T21:21:11.712Z",
+      "id": 67
+    },
+    {
+      "rideId": 126,
+      "userId": 1,
+      "date": "2021-10-27T21:21:53.118Z",
+      "id": 68
+    },
+    {
+      "rideId": 1090,
+      "userId": 1,
+      "date": "2021-10-27T21:23:02.391Z",
+      "id": 69
+    },
+    {
+      "rideId": 552,
+      "userId": 1,
+      "date": "2021-10-27T21:29:58.715Z",
+      "id": 70
+    },
+    {
+      "rideId": 3193,
+      "userId": 1,
+      "date": "2021-10-27T21:30:05.325Z",
+      "id": 71
     }
   ],
   "parks": [
@@ -82119,7 +82314,7 @@
       "parkId": 1151
     },
     {
-      "name": "",
+      "name": "Dueling Dragons - Fire",
       "parkName": "Universal Studios Islands of Adventure",
       "city": "Orlando",
       "state": "Florida",
@@ -88917,6 +89112,31 @@
       "ended": "2007",
       "id": 1587,
       "parkId": 1279
+    },
+    {
+      "name": "Dueling Dragons - Ice",
+      "parkName": "Universal Studios Islands of Adventure",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States",
+      "link": "https://rcdb.com/558.htm",
+      "make": "Bolliger & Mabillard",
+      "model": "Inverted Coaster",
+      "type": "Steel",
+      "design": "Inverted",
+      "length": "32003200",
+      "height": "125125",
+      "speed": "6055",
+      "inversions": 55,
+      "verticalAngle": "",
+      "duration": "0.258622685",
+      "gForce": "",
+      "drop": "11595",
+      "active": false,
+      "started": "28 05 1999",
+      "ended": "04 09 2017",
+      "id": 3193,
+      "parkId": 1152
     }
   ]
 }

@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import { RideCard } from './RideCard';
+import themeParkLogo from '../../images/coasterCreditsLogoRectangle.png';
 import './Ride.css';
 
 
-export const RideList = ({getCredits}) => {
+export const RideList = ({ getCredits }) => {
 
     const [rides, setRides] = useState();
 
@@ -29,8 +30,13 @@ export const RideList = ({getCredits}) => {
 
     return (
         <>
-            <section className="ride-section">
-                <h2>Welcome to the Ride Section</h2>
+            <section className="rideList-logoSection">
+                <div className="rideList-logoDiv">
+                    <img src={themeParkLogo} />
+                </div>
+            </section>
+
+            <section className="rideList-section">
                 {rides?.map(singleRide => <RideCard key={singleRide.id} ride={singleRide} getCredits={getCredits} />).slice(firstRide, lastRide)}
             </section>
         </>

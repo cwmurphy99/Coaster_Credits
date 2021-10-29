@@ -77,6 +77,7 @@ export const CheckBox = ({ ride, getCredits }) => {
             <label>
                 <input
                     type="checkbox"
+                    name="creditCheckbox"
                     checked={checked}
                     onChange={() => handleChange()}
                 />

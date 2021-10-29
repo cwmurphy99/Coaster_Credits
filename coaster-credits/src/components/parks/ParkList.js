@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ParkCard } from "./ParkCard";
+import themeParkLogo from '../../images/coasterCreditsLogoRectangle.png';
 import './Park.css';
 
 export const ParkList = ({ getCredits }) => {
@@ -27,10 +28,15 @@ export const ParkList = ({ getCredits }) => {
 
     return (
         <>
+            <section className="park-logoSection">
+                <div className="park-logoDiv">
+                    <img src={themeParkLogo} />
+                </div>
+            </section>
+
             <section className="park-section">
-                <h2>Welcome to the Park Section</h2>
                 <div className="park-selection">
-                {parks?.map(singlePark => <ParkCard key={singlePark.id} park={singlePark} getCredits={getCredits} />).slice(141, 145)}
+                    {parks?.map(singlePark => <ParkCard key={singlePark.id} park={singlePark} getCredits={getCredits} />).slice(141, 145)}
                 </div>
             </section>
         </>

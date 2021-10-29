@@ -19,15 +19,19 @@ export const UserCard = ({ credits }) => {
     }, []);
 
     return (
-        <section className="user">
+        <>
+            <section className="user">
 
-            <div className="user-content">
+                <div className="user-content">
 
-                <h3 className="user-nickName">Welcome back, {user.nickName}!! </h3>
+            {user.nickName ? <h3 className="user-nickName"> Welcome back, {user.nickName}!! </h3> : <h3 className="user-nickName">Welcome back, {user.name}!! </h3>}
 
-                <h4 className="user-creditCount"> <strong> Credit Count: </strong> {credits.length} </h4>
+                <div className="user-countDiv">
+                <h4 className="user-creditCount"> Credit Count: </h4>
+                <h3 className="user-creditTotal"> {credits.length} </h3>
+                </div>
 
-                {/* <button className="delete-button" type="button" onClick={() => handleDeleteProfile(user.id)}> <strong> Delete Profile </strong> </button>
+            {/* <button className="delete-button" type="button" onClick={() => handleDeleteProfile(user.id)}> <strong> Delete Profile </strong> </button>
 
 
                 <Link to={`/users/${user.id}`}><button> <strong> Details </strong> </button> </Link>
@@ -35,7 +39,8 @@ export const UserCard = ({ credits }) => {
                 <button className="edit-button" type="button"
                 onClick={() => history.push(`/users/${user.id}/edit`)}> Edit </button> */}
 
-            </div>
-        </section>
+                </div>
+            </section>
+        </>
     );
 };

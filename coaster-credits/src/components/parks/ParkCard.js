@@ -1,5 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
+import { Button } from "reactstrap";
 import './Park.css';
 
 export const ParkCard = ({ park, getCredits }) => {
@@ -14,17 +15,34 @@ export const ParkCard = ({ park, getCredits }) => {
       <section className="park">
         <div className="park-content">
           <div className="park-card">
-          {park.name ? <h3 className="park-name"> Park Name: {park?.name} </h3> : <h3 className="park-name"> Park Name: Unknown </h3>}
 
-          {park.city ? <p className="park-city"> City: {park?.city} </p> : <p className="park-city"> City: Unknown </p>}
+{/* SETTING UP INDIVIDUAL DIV AND TURNARY PROPERTIES ALLOWS US THE ABILITY TO SET THE LABLE AND VALUE APART IN ORDER TO STYLE THEM INDIVIDUALLY.  CURRENTLY HAVE THE LABELS SET TO DISPLAY IN RED AND THE VALUE IN BLACK VIA CSS IN PARK.CSS FILE */}
 
-          {park.state ? <p className="park-state">State: {park?.state} </p> : <p className="park-state"> State: Unknown </p>}
-
-          {park.country ? <p className="park-county"> Country: {park?.country} </p> : <p className="park-county"> Country: Unknown </p>}
-
-          <button className="park-detailsButton" type="button" onClick={handleGetDetails} > Select This Park </button>
-
-          {/* <button className="park-deleteButton" type="button" onClick={handleDeletePark(park.id)} > Delete This Park </button> */}
+{/* THIS IS FOR THE PARK NAME */}
+            <div className="park-nameDiv">
+              <h3 className="park-parkName"> Park Name: </h3>
+              {park.name ? <h3 className="park-name"> {park.name} </h3> : <h3 className="park-unknownName"> Unknown </h3>}
+            </div>
+{/* THIS IS FOR THE PARK CITY */}
+            <div className="park-cityDiv">
+            <h3 className="park-parkCity"> City: </h3>
+              {park.city ? <h3 className="park-city"> {park.city} </h3> : <h3 className="park-unknownCity"> Unknown </h3>}
+            </div>
+{/* THIS IS FOR THE PARK STATE */}
+            <div className="park-stateDiv">
+            <h3 className="park-parkState"> State: </h3>
+              {park.state ? <h3 className="park-state"> {park.state} </h3> : <h3 className="park-unknownState"> Unknown </h3>}
+            </div>
+{/* THIS IS FOR THE PARK COUNTRY */}
+            <div className="park-countryDiv">
+            <h3 className="park-parkCountry"> Country: </h3>
+              {park.country ? <h3 className="park-country"> {park.country} </h3> : <h3 className="park-unknownCountry"> Unknown </h3>}
+            </div>
+{/* THIS IS FOR THE PARK SELECTION BUTTON */}
+            <div className="park-detailBtnDiv">
+              <Button onClick={handleGetDetails} > Select This Park </Button>
+            </div>
+            
           </div>
         </div>
       </section>

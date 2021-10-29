@@ -1,6 +1,44 @@
-/* #root {
-    background-color: #8ebff4;
-} */
-html {
-    background-color: #8ebff4;
+.user {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 5px;
+    padding-top: 20px;
+    width: 250px;
+    height: auto;
+}
+.user-content {
+    border: solid 4px #000000;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+.user-nickName {
+    display: flex;
+    width: 100%;
+    padding-left: 3px;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+}
+
+/* CREDIT COUNT STYLING */
+.user-countDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user-creditCount {
+    display: flex;
+    width: auto;
+    padding-left: 3px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
+.user-creditTotal{
+    color: #9D0307;
 }
