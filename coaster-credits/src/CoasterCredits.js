@@ -6,6 +6,8 @@ import { ApplicationViews } from "./components/ApplicationViews";
 import { NavBar } from "./components/nav/NavBar";
 import { Footer } from "./components/footer/Footer";
 import '../src/components/CoasterCredits.css';
+import './components/modules/YouTube.css';
+
 
 export const CoasterCredits = () => (
     <>

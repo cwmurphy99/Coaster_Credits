@@ -7,6 +7,7 @@ import { UserCard } from "./users/UserCard";
 import { ParkList } from "./parks/ParkList";
 import { ParkDetail } from "./parks/ParkDetail";
 import { RideList } from "./rides/RideList";
+import { YoutubeEmbed } from './modules/YoutubeEmbed';
 
 
 export const ApplicationViews = () => {
@@ -39,10 +40,11 @@ export const ApplicationViews = () => {
 
     }
 
-
+    
     return (
         <>
             <Route path="/">  {isAuthenticated ? <UserCard credits={credits} /> : <Login />}  </Route>
+            <Route exact path="/"> {isAuthenticated ? <YoutubeEmbed embedId={"lBgNx8nts70"}  /> : <Login /> } </Route>
 
             <Route exact path="/parks">  {isAuthenticated ? <ParkList getCredits={getCredits} /> : <Login />}  </Route>
 
