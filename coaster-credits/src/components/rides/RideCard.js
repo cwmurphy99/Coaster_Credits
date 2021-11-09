@@ -22,7 +22,7 @@ export const RideCard = ({ ride, getCredits }) => {
 
                         <div className="ride-nameDiv">
                             <h3 className="ride-name">Name: </h3>
-                            {ride.name ? <h3 className="ride-rideName"> {ride.name.toUpperCase()} </h3> : <h3 className="ride-rideName"> Unknown </h3>}
+                            {ride.name ? <h3 className="ride-rideName"> <a href={ride.link} target="_blank"> {ride.name.toUpperCase()} </a> </h3> : <h3 className="ride-rideName"> Unknown </h3>}
                         </div>
 
                         <div className="ride-makeDiv">
@@ -36,13 +36,18 @@ export const RideCard = ({ ride, getCredits }) => {
                         </div>
 
                         <div className="ride-typeDiv">
-                            <h3 className="ride-type">Name: </h3>
-                            {ride.name ? <h3 className="ride-rideType"> {ride.type} </h3> : <h3 className="ride-rideType"> Unknown </h3>}
+                            <h3 className="ride-type">Type: </h3>
+                            {ride.type ? <h3 className="ride-rideType"> {ride.type} </h3> : <h3 className="ride-rideType"> Unknown </h3>}
+                        </div>
+
+                        <div className="ride-locationDiv">
+                            <h3 className="ride-location">Location: </h3>
+                            {ride.parkName ? <h3 className="ride-rideLocation">  {ride.parkName} </h3> : <h3 className="ride-rideLocation"> Unknown </h3>}
                         </div>
 
 
                         <div className="ride-checkBoxDiv">
-                            <CheckBox ride={ride} getCredits={getCredits} />
+                         {ride.ended ? <h3 className="OutOfOps"> Out of Operation </h3> : <CheckBox ride={ride} getCredits={getCredits} />}
                         </div>
                     </div>
                 </div>

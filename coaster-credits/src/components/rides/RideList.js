@@ -25,8 +25,7 @@ export const RideList = ({ getCredits }) => {
         return Math.floor(Math.random() * max)
     }
     let firstRide = getRandomInt(3188);
-    let lastRide = firstRide + 5;
-    //console.log(firstRide, lastRide);
+    let lastRide = firstRide + 6;
 
     return (
         <>

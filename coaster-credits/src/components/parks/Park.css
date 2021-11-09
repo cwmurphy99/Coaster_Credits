@@ -1,45 +1,38 @@
 /* THIS IS FOR THE COASTER CREDITS IMAGE ON SCREEN */
 .park-logoSection {
-    display: flex;
-    justify-content: center;
-    margin-top: -115px;
-    padding-bottom: 15px;
+    display: grid;
+    grid-template-areas: 'left center right';
 }
 .park-logoDiv {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-area: center;
     width: auto;
     height: auto;
-    align-content: center;
-
+    justify-content: center;
+    margin-top: -153px;
 }
 
 /* THIS IS FOR THE PARKS INFORMATION */
-.park-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .park-selection {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    margin: 5px;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
 .park {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    padding: 5px;
 }
 .park-content {
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
+    width: min(99%, 75rem);
+    display: grid;
+    grid-auto-flow: column;
 }
 .park-card {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 100%;
     padding: 5px;
-    width: auto;
-    height: auto;
     border: 4px solid #000000;
     border-radius: 15px;
 }
@@ -51,42 +44,11 @@
 }
 
 /* SET THE STYLING FOR LABELS AND VALUES ON ALL OF THE PARK CARDS */
-/* STYLING FOR PARK NAME */
-.park-nameDiv {
+.park-nameDiv, .park-cityDiv, .park-stateDiv, .park-countryDiv {
     display: flex;
     flex-direction: row;
 }
-.park-parkName {
-    color: #9D0307;
-    padding-right: 5px;
-    padding-bottom: 3px;
-}
-/* STYLING FOR PARK CITY */
-.park-cityDiv {
-    display: flex;
-    flex-direction: row;
-}
-.park-parkCity {
-    color: #9D0307;
-    padding-right: 5px;
-    padding-bottom: 3px;
-}
-/* STYLING FOR PARK STATE */
-.park-stateDiv {
-    display: flex;
-    flex-direction: row;
-}
-.park-parkState {
-    color: #9D0307;
-    padding-right: 5px;
-    padding-bottom: 3px;
-}
-/* STYLING FOR PARK COUNTRY */
-.park-countryDiv {
-    display: flex;
-    flex-direction: row;
-}
-.park-parkCountry {
+.park-parkName, .park-parkCity, .park-parkState, .park-parkCountry {
     color: #9D0307;
     padding-right: 5px;
     padding-bottom: 3px;

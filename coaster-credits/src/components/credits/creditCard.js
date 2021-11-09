@@ -1,6 +1,7 @@
 import { getDefaultNormalizer } from "@testing-library/dom";
 import React, { useState } from "react";
 import { useEffect } from "react/cjs/react.development";
+import '../rides/Ride.css';
 
 export const CheckBox = ({ ride, getCredits }) => {
     const [checked, setChecked] = useState(false);

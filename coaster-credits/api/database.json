@@ -6,6 +6,10 @@
       "email": "chris@cc.com",
       "nickName": "Smurph",
       "id": 1,
+      "birthday": "",
+      "homePark": "King's Island",
+      "favoritePark": "Cedar Point",
+      "profileImage": "",
       "isAdmin": true
     },
     {
@@ -14,6 +18,10 @@
       "fullName": "April Murphy",
       "nickName": "Soapy",
       "id": 2,
+      "birthday": "",
+      "homePark": "King's Island",
+      "favoritePark": "",
+      "profileImage": "",
       "isAdmin": false
     },
     {
@@ -21,6 +29,10 @@
       "name": "Lindsay",
       "fullName": "Lindsay Fuller",
       "nickName": "Loobndsooby",
+      "birthday": "",
+      "homePark": "King's Island",
+      "favoritePark": "",
+      "profileImage": "",
       "isAdmin": false,
       "id": 3
     }
@@ -139,12 +151,6 @@
       "userId": 1,
       "date": "2021-10-26T21:06:57.617Z",
       "id": 35
-    },
-    {
-      "rideId": 141,
-      "userId": 1,
-      "date": "2021-10-27T15:15:10.598Z",
-      "id": 36
     },
     {
       "rideId": 2296,
@@ -355,6 +361,17 @@
       "userId": 1,
       "date": "2021-10-27T21:30:05.325Z",
       "id": 71
+    },
+    {
+      "rideId": 141,
+      "userId": 1,
+      "date": "2021-10-29T15:55:05.060Z",
+      "id": 72
+    }
+  ],
+  "reviews": [
+    {
+      
     }
   ],
   "parks": [

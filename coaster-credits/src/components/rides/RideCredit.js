@@ -24,7 +24,9 @@ export const RideCredit = ({parkId, getCredits}) => {
     return (
         <>
             <section className="credit-section">
+                <div className="credit-cardHolder">
                 {credits?.map(singleCredit => <RideCard key={singleCredit.id} ride={singleCredit} getCredits={getCredits} />)}
+                </div>
             </section>
         </>
     );

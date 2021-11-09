@@ -13,7 +13,7 @@ export const Footer = () => {
                     <div className="footer-copyrite">
                         <p>&copy; 2021 - Nashville Software School</p>
                     </div>
-                    
+                    <div className="footer-profileLinks">
                     <div>
                         <a href="" target="_blank" className="footer-imageProfileImage"><img src={profileImage} /> </a>
                     </div>
@@ -25,7 +25,7 @@ export const Footer = () => {
                     <div>
                         <a href="https://github.com/cwmurphy99" target="_blank" className="footer-imageGitHubImage"><img src={githubLogo} /> </a>
                     </div>
-
+</div>
                 </section>
             </footer>
         </>

@@ -4,13 +4,15 @@ import themeParkLogo from '../../images/coasterCreditsLogoRectangle.png';
 import './Park.css';
 
 export const ParkList = ({ getCredits }) => {
-
     const [parks, setParks] = useState();
+    
+    let count = 0;
 
     const getParks = () => {
         fetch("http://localhost:8088/parks")
             .then((response) => response.json())
             .then((apiListReturn) => {
+                count++;
                 setParks(apiListReturn);
             });
     };
@@ -20,11 +22,11 @@ export const ParkList = ({ getCredits }) => {
     }, []);
 
     //GENERATE TWO RANDOM NUMBERS SO WE HAVE A RANDOM SET OF RIDES SHOW
-    // const getRandomInt = (max) => {
-    //     return Math.floor(Math.random() * max)
-    // }
-    // let firstRide = getRandomInt(3188);
-    // let lastRide = firstRide + 5;
+    const getRandomInt = (max) => {
+        return Math.floor(Math.random() * max)
+    }
+    let firstPark = getRandomInt(1279);
+    let lastPark = firstPark + 6;
 
     return (
         <>
@@ -36,7 +38,7 @@ export const ParkList = ({ getCredits }) => {
 
             <section className="park-section">
                 <div className="park-selection">
-                    {parks?.map(singlePark => <ParkCard key={singlePark.id} park={singlePark} getCredits={getCredits} />).slice(141, 145)}
+                    {parks?.map(singlePark => <ParkCard key={singlePark.id} park={singlePark} getCredits={getCredits} />).slice(590, 596)}
                 </div>
             </section>
         </>
