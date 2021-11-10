@@ -10,3 +10,19 @@ html {
 body{
     font-family: 'RollerCoaster';
 }
+
+.container {
+    display: grid;
+    grid-template-areas: 'left center right';
+    padding-bottom: 15px;
+}
+.getRandomButton {
+    display: grid;
+    grid-area: left;
+    width: 25%;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+button{
+    cursor: pointer;
+}

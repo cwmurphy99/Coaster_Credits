@@ -1,0 +1,73 @@
+/* THIS SETS THE RIDE CARDS TO DISPLAY IN A GRID PATTERN */
+/* .credit-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+.credit-section {
+    display: grid;
+}
+.credit-cardHolder {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.credit-checkBox {
+    display: flex;
+    justify-content: flex-end;
+}
+.rideList-section {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: auto;
+    height: auto;
+}
+
+/* THIS IS FOR THE LOGO IMAGE IN THE MIDDLE OF THE PAGE */
+.rideList-logoSection {
+    display: grid;
+    grid-template-areas: 'left center right';
+}
+.rideList-logoDiv {
+    display: grid;
+    grid-area: center;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin-top: -153px;
+}
+.ride-section {
+    display: grid;
+    padding: 5px;
+    width: auto;
+}
+
+
+.ride-card {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    width: 95%;
+    height: 135px;
+    border: 4px solid #000000;
+    border-radius: 15px;
+}
+.ride-checkBoxDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.OutOfOps {
+    color: #9D0307;
+}
+/* SET THE STYLING FOR LABELS AND VALUES ON ALL OF THE RIDE CARDS */
+/* STYLING FOR RIDE NAME */
+.ride-nameDiv, .ride-makeDiv, .ride-modelDiv, .ride-typeDiv, .ride-locationDiv  {
+    display: flex;
+    flex-direction: row;
+}
+.ride-name, .ride-make, .ride-model, .ride-type, .ride-location{
+    color: #9D0307;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}

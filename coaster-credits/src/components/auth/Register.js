@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import "./Login.css";
+import { Button } from "reactstrap";
+import "./Register.css";
 
 export const Register = () => {
     const [registerUser, setRegisterUser] = useState({
-        firstName: "",
-        lastName: "",
+        name: "",
+        fullName: "",
         nickName: "",
         email: "",
         isAdmin: ""
     });
     const [conflictDialog, setConflictDialog] = useState(false);
-
     const history = useHistory();
 
     const handleInputChange = (event) => {
@@ -27,6 +27,10 @@ export const Register = () => {
             .then((user) => !!user.length);
     };
 
+    const handleBack = () => {
+        history.push("/login");
+    };
+
     const handleRegister = (e) => {
         e.preventDefault();
 
@@ -40,8 +44,9 @@ export const Register = () => {
                     },
                     body: JSON.stringify({
                         email: registerUser.email,
-                        name: `${registerUser.firstName} ${registerUser.lastName}`,
+                        fullName: `${registerUser.firstName} ${registerUser.lastName}`,
                         nickName: `${registerUser.nickName}`,
+                        name: `${registerUser.firstName}`,
                         isAdmin: false,
                     }),
                 })
@@ -60,84 +65,87 @@ export const Register = () => {
     };
 
     return (
-        
-        <main className="container--register" style={{ textAlign: "center" }}>
-            <dialog className="dialog dialog--password" open={conflictDialog}>
-                <div>
-                    Account with that email address already exists
-                </div>
-                <button
-                    className="button--close"
-                    onClick={(e) => setConflictDialog(false)}
-                >
-                    Close
-                </button>
-            </dialog>
+        <>
+            <main className="container--register" style={{ textAlign: "center" }}>
+                <dialog className="dialog dialog--password" open={conflictDialog}>
+                    <div className="existingAccountText">
+                        <h2> Account with that email address already exists </h2>
+                        <div className="buttonDiv">
+                            <Button
+                                className="button--close"
+                                onClick={(e) => setConflictDialog(false)}
+                            >
+                                Try Again
+                            </Button>
+                        </div>
+                    </div>
+                </dialog>
+                <form className="form--register--section" onSubmit={handleRegister}>
+                    <div className="form--register">
+                        <div className="formBox">
+                            <h1>
+                                Register for Coaster Credits
+                            </h1>
+                            <fieldset className="fieldset-register">
+                                <input
+                                    type="text"
+                                    name="firstName"
+                                    id="firstName"
+                                    className="form-control"
+                                    placeholder="First name"
+                                    required
+                                    autoFocus
+                                    value={registerUser.firstName}
+                                    onChange={handleInputChange}
+                                />
+                            </fieldset>
+                            <fieldset className="fieldset-register">
+                                <input
+                                    type="text"
+                                    name="lastName"
+                                    id="lastName"
+                                    className="form-control"
+                                    placeholder="Last name"
+                                    required
+                                    value={registerUser.lastName}
+                                    onChange={handleInputChange}
+                                />
+                            </fieldset>
+                            <fieldset className="fieldset-register">
+                                <input
+                                    type="text"
+                                    name="nickName"
+                                    id="nickName"
+                                    className="form-control"
+                                    placeholder="Nickname"
+                                    required
+                                    value={registerUser.nickName}
+                                    onChange={handleInputChange}
+                                />
+                            </fieldset>
+                            <fieldset className="fieldset-register">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    className="form-control"
+                                    placeholder="Email address"
+                                    required
+                                    value={registerUser.email}
+                                    onChange={handleInputChange}
+                                />
+                            </fieldset>
 
-            <form className="form--register--section"onSubmit={handleRegister}>
-                <div className="form--register">
-                    <h1>
-                        Register for Coaster Credits
-                    </h1>
-                    <fieldset className="fieldset-register">
-                        <label htmlFor="firstName"> First Name </label>
-                        <input
-                            type="text"
-                            name="firstName"
-                            id="firstName"
-                            className="form-control"
-                            placeholder="First name"
-                            required
-                            autoFocus
-                            value={registerUser.firstName}
-                            onChange={handleInputChange}
-                        />
-                    </fieldset>
-                    <fieldset className="fieldset-register">
-                        <label htmlFor="lastName"> Last Name </label>
-                        <input
-                            type="text"
-                            name="lastName"
-                            id="lastName"
-                            className="form-control"
-                            placeholder="Last name"
-                            required
-                            value={registerUser.lastName}
-                            onChange={handleInputChange}
-                        />
-                    </fieldset>
-                    <fieldset className="fieldset-register">
-                        <label htmlFor="nickName"> Nickname </label>
-                        <input
-                            type="text"
-                            name="nickName"
-                            id="nickName"
-                            className="form-control"
-                            placeholder="Nickname"
-                            required
-                            value={registerUser.nickName}
-                            onChange={handleInputChange}
-                        />
-                    </fieldset>
-                    <fieldset className="fieldset-register">
-                        <label htmlFor="inputEmail"> Email address </label>
-                        <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            className="form-control"
-                            placeholder="Email address"
-                            required
-                            value={registerUser.email}
-                            onChange={handleInputChange}
-                        />
-                    </fieldset>
-                
-                <fieldset className="fieldset-register--button">
-                    <button type="submit"> Complete Registration </button>
-                </fieldset>
-                </div>
-            </form>
-        </main>
+                            <fieldset className="fieldset-register--button">
+                                <Button type="submit"> Complete Registration </Button>
+                            </fieldset>
+                            <div className="register-backButtonDiv">
+                                <Button type="button" className="goBackButton" onClick={handleBack} > Go Back </Button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </main>
+        </>
     );
 };

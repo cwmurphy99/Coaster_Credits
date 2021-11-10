@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import { RideCard } from './RideCard';
+import themeParkLogo from '../../images/coasterCreditsLogoRectangle.png';
 import './Ride.css';
 
 
-export const RideList = ({getCredits}) => {
+export const RideList = ({ getCredits }) => {
 
     const [rides, setRides] = useState();
 
@@ -24,13 +25,17 @@ export const RideList = ({getCredits}) => {
         return Math.floor(Math.random() * max)
     }
     let firstRide = getRandomInt(3188);
-    let lastRide = firstRide + 5;
-    //console.log(firstRide, lastRide);
+    let lastRide = firstRide + 6;
 
     return (
         <>
-            <section className="ride-section">
-                <h2>Welcome to the Ride Section</h2>
+            <section className="rideList-logoSection">
+                <div className="rideList-logoDiv">
+                    <img src={themeParkLogo} />
+                </div>
+            </section>
+
+            <section className="rideList-section">
                 {rides?.map(singleRide => <RideCard key={singleRide.id} ride={singleRide} getCredits={getCredits} />).slice(firstRide, lastRide)}
             </section>
         </>

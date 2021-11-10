@@ -1,34 +1,55 @@
-.park-section {
+/* THIS IS FOR THE COASTER CREDITS IMAGE ON SCREEN */
+.park-logoSection {
+    display: grid;
+    grid-template-areas: 'left center right';
+}
+.park-logoDiv {
+    display: grid;
+    grid-area: center;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin-top: -153px;
+}
+
+/* THIS IS FOR THE PARKS INFORMATION */
+.park-selection {
+    margin: 5px;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.park {
+    display: grid;
+    padding: 5px;
+}
+.park-content {
+    width: min(99%, 75rem);
+    display: grid;
+    grid-auto-flow: column;
+}
+.park-card {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 5px;
+    border: 4px solid #000000;
+    border-radius: 15px;
+}
+.park-detailBtnDiv{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 5px;
 }
-.park-selection {
+
+/* SET THE STYLING FOR LABELS AND VALUES ON ALL OF THE PARK CARDS */
+.park-nameDiv, .park-cityDiv, .park-stateDiv, .park-countryDiv {
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
 }
-.park-card {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    padding-right: 10px;
-}
-
-
-.park-detailSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.park-detail {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-}
-.park-card {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    padding-right: 10px;
+.park-parkName, .park-parkCity, .park-parkState, .park-parkCountry {
+    color: #9D0307;
+    padding-right: 5px;
+    padding-bottom: 3px;
 }

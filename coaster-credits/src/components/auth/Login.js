@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
+import { Button, Label } from 'reactstrap';
+import loginCCLogo from '../../images/coasterCreditsLogoRectangle.png';
 import "./Login.css";
 
 
@@ -37,40 +39,58 @@ export const Login = () => {
     };
 
     return (
-        <main className="container--login">
-            <dialog className="dialog dialog--auth" open={existDialog}>
-                <div>"User does not exist"</div>
-                <button
-                    className="button--close"
-                    onClick={(e) => setExistDialog(false)}
-                >
-                    Close
-                </button>
-            </dialog>
-            <section className="form--section">
-                <form className="form--login" onSubmit={handleLogin}>
-                    <h1 className="form--title">Please sign in to view content</h1>
-                    <fieldset>
-                        <label htmlFor="inputEmail"> Email address </label>
-                        <input
-                            type="email"
-                            id="email"
-                            className="form-control"
-                            placeholder="Email address"
-                            required
-                            autoFocus
-                            value={loginUser.email}
-                            onChange={handleInputChange}
-                        />
-                    </fieldset>
-                    <fieldset className="form--login--button">
-                        <button type="submit">Sign in</button>
-                    </fieldset>
-                </form>
-            </section>
-            <section className="link--register">
-                <Link to="/register">Register for an account</Link>
-            </section>
-        </main>
+        <>
+            <main className="container--login">
+                <dialog className="dialog dialog--auth" open={existDialog}>
+                    <div>
+                        <h2>User does not exist</h2>
+                        <div className="buttonDiv">
+                            <Button
+                                className="button--close"
+                                onClick={(e) => setExistDialog(false)}
+                            >
+                                Try Again
+                            </Button>
+                        </div>
+                    </div>
+                </dialog>
+
+                <section className="login-logoSection">
+                    <div className="login-logoDiv">
+                        <img src={loginCCLogo} />
+                    </div>
+                </section>
+
+                <section className="form--section">
+                    <form className="form--login" onSubmit={handleLogin}>
+                        <h1 className="form--title">Sign in and let's get started!</h1>
+                        <fieldset className="form-label" >
+                            <input
+                                type="email"
+                                id="email"
+                                className="form-control"
+                                placeholder="Email Address"
+                                required
+                                autoFocus
+                                value={loginUser.email}
+                                onChange={handleInputChange}
+                            />
+                        </fieldset>
+                        <fieldset className="form--login--button">
+                            <Button>Sign In</Button>
+                        </fieldset>
+                    </form>
+                </section>
+
+                <section className="link--register">
+                    <div className="registerDiv">
+                        <h4 className="registerText"> Don't have a login yet? </h4>
+                        <div className="registerButtonDiv">
+                            <Link to="/register"><Button> Register New Account </Button> </Link>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </>
     );
 };

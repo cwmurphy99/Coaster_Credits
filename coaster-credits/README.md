@@ -1,3 +1,11 @@
+# `Coaster Credits`
+
+* Welcome to the first and only application that allows you to track what roller coaster you have ridden!
+* Create your profile and begin logging those rides today *
+
+![Screenshot000095](https://user-images.githubusercontent.com/19331670/139387861-0db870f8-3fdd-4061-b7a3-ebf3075e8992.jpg)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

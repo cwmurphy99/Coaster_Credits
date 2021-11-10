@@ -1,0 +1,51 @@
+.container--register {
+    padding-top: 80px;
+}
+.form--register--section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form--register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fieldset-register {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.fieldset-register--button {
+    display: flex;
+    justify-content: center;
+}
+.formBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8ebff4;
+    border: 2px solid #000000;
+    padding: 20px;
+    border-radius: 10px;
+}
+.goBackButton{
+    background-color: #ff7f11;
+}
+
+/* IF THE USER DOES NOT EXIST, DISPLAY A DIALOG BOX
+HERE IS WHERE WE STYLE THAT BOX */
+dialog {
+    border-color: #000000;
+    color: #000000;
+    margin: auto;
+    margin-top: 100px;
+}
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+fieldset { 
+    border:0;
+  }

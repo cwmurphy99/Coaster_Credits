@@ -1,0 +1,31 @@
+/* THIS IS FOR THE COASTER CREDITS IMAGE ON SCREEN */
+.youtube-ccLogoDiv {
+  display: grid;
+  grid-template-areas: 'left center right';
+  margin-top: -170px;
+  margin-bottom: 5px;
+}
+.youtube-ccLogo {
+  display: grid;
+  justify-content: center;
+  grid-area: center;
+}
+.youtube-ccLogo img {
+  height: 150px;
+  width: 250px;
+}
+
+
+.video-responsive {
+  display: flex;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-responsive iframe {
+  position: absolute;
+}

@@ -1,54 +1,95 @@
-.container--login {
-    background-color: #8ebff4;
-    padding-bottom: 501px;
-}.form--section {
+.form--section {
     display: flex;
     justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .form--login {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    background-color: #8ebff4;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 .form--login--button {
     display: flex;
     justify-content: center;
 }
+
+/* THIS IS FOR THE LOGO IMAGE IN THE MIDDLE OF THE PAGE */
+.login-logoSection {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.login-logoDiv {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    align-content: center;
+}
+
+
 .form--title {
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px;
+}
+.form-label{
+    display: flex;
+    background-color: #8ebff4;
+    justify-content: center;
+}
+.form-control {
+    background-color: #74d2ae;
+    border-color: #000000;
+    box-shadow: #9d0307;
 }
 .link--register {
     display: flex;
     justify-content: center;
 }
-
-
-
-.container--register {
-  background-color: #8ebff4;
-  padding-bottom: 506.5px;
-  padding-top: 5px;
-}
-.form--register--section {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.form--register {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+button {
+    height: 20px;
+    width: auto;
+    background-color: #74d2ae;
+    border-color: #000000;
+    color: #000000;
     align-items: center;
 }
-.fieldset-register {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
+.registerDiv {
+    border: 2px solid #000000;
+    background-color: #8ebff4;
+    border-radius: 10px;
 }
-.fieldset-register--button {
+.registerText {
+    padding: 10px;
+}
+.registerButtonDiv {
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+/* IF THE USER DOES NOT EXIST, DISPLAY A DIALOG BOX
+HERE IS WHERE WE STYLE THAT BOX */
+dialog {
+    border-color: #000000;
+    background-color: #8ebff4;
+    color: #000000;
+    margin: auto;
+    margin-top: 150px;
+}
+.buttonDiv {
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
 fieldset { 
-    border:0;
-}
+    background-color: #8ebff4;
+      border:0;
+  }
+
+
+

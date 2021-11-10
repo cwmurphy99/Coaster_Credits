@@ -4,11 +4,17 @@ import { useHistory, useParams } from "react-router-dom";
 import { RideCard } from "../rides/RideCard";
 import { RideList } from "../rides/RideList";
 import { RideCredit } from "../rides/RideCredit";
+import { Button } from "reactstrap";
+import { UserCard } from '../users/UserCard';
+import themeParkLogo from '../../images/coasterCreditsLogoRectangle.png';
+import './ParkDetail.css';
+import '../rides/Ride.css';
+import './Park.css';
 
 const apiParkReturn = new APIManager();
 const currentUser = parseInt(sessionStorage.getItem("coasterCredit_user"));
 
-export const ParkDetail = ({getCredits}) => {
+export const ParkDetail = ({ getCredits }) => {
     const [park, setPark] = useState({
         id: "",
         user: "",
@@ -49,34 +55,46 @@ export const ParkDetail = ({getCredits}) => {
 
     return (
         <>
-            <section className="park-detailSection">
-                <div className="park-detail">
 
-                    <h3 className="park-Name"> <strong> Name: {park.name} </strong> </h3>
-                    <div className="park-parkDetails"> <strong> City: </strong> {park.city} </div>
-                    <div className="park-parkDetails"> <strong> State: </strong> {park.state} </div>
-                    <div className="park-parkDetails"> <strong> Country: </strong> {park.country} </div>
-
-                    {currentUser === 1 ?
-
-                        <div>
-
-                            <button className="park-deleteButton" type="button" disabled={isLoading} onClick={handleDeletePark} > Delete This Park </button>
-                            <button className="park-editButton" type="button" disabled={isLoading} onClick={() => history.push(`/parks/${parkId}/edit`)} > Edit This Park </button>
-                            <button type="button" className="park-backButton" onClick={handleBack} > Go Back </button>
-                            
-                        </div>
-
-                        :
-                        
-                        <button type="button" className="park-backButton" onClick={handleBack} > Go Back </button>
-
-                    }
-
+            <section className="park-logoSection">
+                <div className="park-logoDiv">
+                    <img src={themeParkLogo} />
                 </div>
             </section>
 
-        <RideCredit parkId={parkId} getCredits={getCredits} />
+
+            <section className="parkDetail-detailSection">
+                <div className="parkDetail-detail">
+                    <div className="parkDetail-detailCard">
+                        <div className="parkDetail-nameDiv">
+                            <h3 className="parkDetail-name" style={{ color: "#9D0307" }}> Name: </h3>
+                            <h3 className="parkDetail-nameDetail" > {park.name.toUpperCase()} </h3>
+                        </div>
+
+                        <div className="parkDetail-cityDiv">
+                            <h3 className="parkDetail-city" style={{ color: "#9D0307" }}> City: </h3>
+                            <h3 className="parkDetail-cityDetail"> {park.city} </h3>
+                        </div>
+
+                        <div className="parkDetail-stateDiv">
+                            <h3 className="parkDetail-state" style={{ color: "#9D0307" }}> State: </h3>
+                            <h3 className="parkDetail-stateDetail"> {park.state} </h3>
+                        </div>
+
+                        <div className="parkDetail-countryDiv">
+                            <h3 className="parkDetail-country" style={{ color: "#9D0307" }}> Country: </h3>
+                            <h3 className="parkDetail-countryDetail"> {park.country} </h3>
+                        </div>
+
+                        <div className="parkDetail-backButtonDiv">
+                            <Button onClick={handleBack} > Go Back </Button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <RideCredit parkId={parkId} getCredits={getCredits} />
 
         </>
     )
