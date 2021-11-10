@@ -5,7 +5,7 @@ import './Park.css';
 
 export const ParkList = ({ getCredits }) => {
     const [parks, setParks] = useState();
-    
+
     let count = 0;
 
     const getParks = () => {
@@ -30,6 +30,12 @@ export const ParkList = ({ getCredits }) => {
 
     return (
         <>
+            <section className="park-searchSection">
+                <div className="park-searchDiv">
+                    <input type="text" placeholder="Enter Park Name" />
+                </div>
+            </section>
+
             <section className="park-logoSection">
                 <div className="park-logoDiv">
                     <img src={themeParkLogo} />
@@ -38,7 +44,7 @@ export const ParkList = ({ getCredits }) => {
 
             <section className="park-section">
                 <div className="park-selection">
-                    {parks?.map(singlePark => <ParkCard key={singlePark.id} park={singlePark} getCredits={getCredits} />).slice(590, 596)}
+                    {parks?.map(singlePark => <ParkCard key={singlePark.id} park={singlePark} getCredits={getCredits} />).slice(firstPark, lastPark)}
                 </div>
             </section>
         </>

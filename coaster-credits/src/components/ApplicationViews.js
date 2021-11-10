@@ -38,12 +38,12 @@ export const ApplicationViews = () => {
         setIsAuthenticated(sessionStorage.getItem("coasterCredit_user") !== null)
     }
     //GRAB A RANDOM NUMBER AND SELECT A YOUTUBE VIDEO EMBED ID
-    const getRandomInt = (max) => {
+    const getRandom = (max) => {
         return Math.floor(Math.random() * max)
     }
     const getEmbedId = () => {
         let embedVideo = ["9BYVm9oCVkc", "i1KG6NxBVQc", "5MkuSUXdoZo", "lBgNx8nts70", "ORYxTwDbWz8", "biscwXQ6GPY", "mWASI1qpHvk", "MfJjX7HcPbg", "WziRm9Ez-uY", "fv020y-0x_g", "Nh8PoG7UzS4", "g-v7MDKL-gI", "6EjSl_FKDBY", "5WrRDN6gGvM", "KTji1hOICEI", "qYjl11p3afM", "llvaWdI3hLM", "NRvWERvwyIM", "RTXTbzctl0c", "Bzq01XaGNtw"];
-        let chooseVideo = getRandomInt(20);
+        let chooseVideo = getRandom(20);
         return embedVideo[chooseVideo]
     }
 
